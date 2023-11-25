@@ -1,0 +1,15 @@
+.carousell{
+    background-color:   rgb(195, 212, 212);
+    padding: 150px;
+    
+}
+div img{
+    height: 400px;
+    width: 400px;
+}
+.carousel-inner{
+    background-image: url(../../assets/img/cascada-samaria-juan-morales.jpg);
+    width: 200px;
+    height: 600px;
+    
+}

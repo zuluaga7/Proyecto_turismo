@@ -1,8 +1,10 @@
 import React from 'react'
+import '../Carrusel/Carrusel.css'
 
 export default function Carrusel() {
   return (
     <>
+    <section className='carousell'>
      <div id="carouselExampleCaptions" className="carousel slide">
   <div className="carousel-indicators">
     <button
@@ -68,7 +70,8 @@ export default function Carrusel() {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
- 
+    </section>
+    
     </>
   )
 }

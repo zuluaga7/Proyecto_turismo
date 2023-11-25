@@ -1,0 +1,36 @@
+.footer {
+    padding: 50px 0;
+    background-color:  rgb(195, 212, 212);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #030303;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #100f0f;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.img{
+margin-left: 870px;
+}
+.pie{
+   background-color: aliceblue;
+}
+.pie h2{
+    color: rgb(16, 16, 107);
+    margin-left: 373px;
+    font-size: 21px;
+}

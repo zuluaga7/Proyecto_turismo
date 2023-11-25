@@ -1,107 +1,68 @@
 import React from 'react'
-
+import '../PieDePagina/PieDePagina.css'
 export default function PieDePagina() {
   return (
     <>
      <footer className="footer">
   <div className="footer-content container">
     <div className="link">
-      <h3>CONTACTO</h3>
+      <h3>contacto</h3>
       <ul>
         <li>
-          <a href="#">+57 315 0030 1234</a>
+          <a href="#">Tel: 3213456784</a>
         </li>
         <li>
-          <a href="#">+57 300 1234 9876</a>
+          <a href="#">Pbx: 01 8000 31 65 78</a>
         </li>
         <li>
-          <a href="#">+57 305 9376 1343</a>
-        </li>
-        <li>
-          <a href="#">+57 310 1938 9887</a>
+          <a href="#">Escribenos</a>
         </li>
       </ul>
     </div>
     <div className="link">
-      <h3>CENTROS DE ATENCION</h3>
+      <h3>Quienes somos?</h3>
       <ul>
         <li>
-          <a href="#">sede poblado</a>
+          <a href="#">Cultura</a>
         </li>
         <li>
-          <a href="#">sede san diego</a>
+          <a href="#">Trabaja aquí</a>
         </li>
         <li>
-          <a href="#">sede pedregal</a>
-        </li>
-        <li>
-          <a href="#">sede los molinos</a>
+          <a href="#">La vida en Puebliando'Ando</a>
         </li>
       </ul>
     </div>
     <div className="link">
-      <h3>Pagos</h3>
+      <h3>Ayuda</h3>
       <ul>
         <li>
-          <a href="#">Davivienda</a>
+          <a href="#">Viajes</a>
         </li>
         <li>
-          <a href="#">Bancolombia</a>
+          <a href="#">Promociones</a>
         </li>
         <li>
-          <a href="#">PSE</a>
+          <a href="#">Preguntas frecuentes</a>
         </li>
-        <li>
-          <a href="#">Nequi</a>
-        </li>
-      </ul>
-    </div>
-    <div className="link">
-      <h3>CIUDAD</h3>
-      <ul>
-        <li>
-          <a href="#">Medellin</a>
-        </li>
-        <li>
-          <a href="#">Cali</a>
-        </li>
-        <li>
-          <a href="#">Pereira</a>
-        </li>
-        <li>
-          <a href="#">Bogota</a>
-        </li>
-      </ul>
-    </div>
-    <div className="link">
-      <h3>SERVICIOS AL USUARIO</h3>
-      <ul>
-        <li>
-          <a href="#">tiempo para ti</a>
-        </li>
-        <li>
-          <a href="#">Deberes y derechos del afiliado</a>
-        </li>
-        <li>
-          <a href="#">Afiliación para desempleados</a>
-        </li>
-        <li>
-          <a href="#">Atención virtual en Salud</a>
-        </li>
-        <nav>
-        <img className="marca" src="./assets/img/marca.jpeg" alt="" />
-        <img className="img" src="assets/img/facebook.svg" alt="" />
-        <img className="img2" src="assets/img/facebook-messenger.svg" alt="" />
-        <img className="img3" src="assets/img/youtube.svg" alt="" />
-        <img className="img4" src="assets/img/instagram.svg" alt="" />
-        <img className="img5" src="assets/img/twitter.svg" alt="" />
-        </nav>
-        
       </ul>
     </div>
   </div>
+  
+  <nav className='img'>
+  <i id='one' class="bi bi-facebook"></i>
+  <i class="bi bi-messenger"></i>
+  <i class="bi bi-youtube"></i>
+  <i class="bi bi-instagram"></i>
+  <i class="bi bi-twitter-x"></i>
+    </nav>    
+  
+  
 </footer>
- 
-    </>
+<section className='pie'>
+    <h2>© 2023 Antioquia es vida. Todos los derechos reservados.</h2>
+  </section>
+
+        </>
   )
 }

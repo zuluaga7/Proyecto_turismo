@@ -1,0 +1,23 @@
+.cuerpo {
+    background-color:   rgb(195, 212, 212);
+    padding: 20px;
+    
+}
+
+
+.titulo {
+    font-size: 34px;
+    color:  rgb(201, 223, 223);
+    margin-bottom: 10px;
+}
+
+.contenido {
+   
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: rgb(66, 56, 56);
+    columns: 1;
+    column-gap: 30px;
+    
+   
+}
