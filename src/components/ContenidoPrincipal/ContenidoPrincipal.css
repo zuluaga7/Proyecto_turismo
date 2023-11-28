@@ -1,23 +1,26 @@
 .cuerpo {
-    background-color:   rgb(195, 212, 212);
-    padding: 20px;
-    
+    background-color: rgb(195, 212, 212);
+    padding: 31px;
 }
-
-
 .titulo {
-    font-size: 34px;
-    color:  rgb(201, 223, 223);
-    margin-bottom: 10px;
+    font-size: 41px;
+    color: rgb(24, 83, 83);
+    align-items: center;
+    padding: 2%;
 }
 
-.contenido {
-   
+.texto{
+    align-items: center;
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     color: rgb(66, 56, 56);
-    columns: 1;
-    column-gap: 30px;
-    
-   
+    column-gap: 31px;
+    column-count: 3;
+    padding: 15px;
+}
+#imagen{
+   margin-top: 21px;
+   width: 241px;
+   height: 307px;
+   margin-left: 30px;
 }

@@ -1,11 +1,12 @@
 import '../Menu/Menu.css'
+import chiva from '../../assets/img/chiva.png'
 export function Menu() {
     return (
         <>
-<nav className="bar navbar-dark fixed-top menu">
+<nav className="navbar navbar-expand-lg navbar-dark fixed-top menu">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
-      Menu
+      <img src={chiva} alt="" />
     </a>
     <button
       className="navbar-toggler"
@@ -83,25 +84,25 @@ export function Menu() {
           </ul>
         </li>
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#">
+          <a className="nav-link" href="#">
             Rutas
           </a>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">
-            Blog
-          </a>
-        </li>
       </ul>
-      <form className="d-flex" role="search">
+      <section className='login'>
+        <a href="">iniciar secion</a>
+        <a href="">crear cuenta</a>
+      </section>
+      {/* <form className="d-flex" role="search">
         <input
           className="form-control me-5" 
           type="search"
           placeholder="Buscar"
           aria-label="Search"
         />
-        <button className="btn btn-primary" type="submit">Buscar</button>
-      </form>
+        <button className="btn btn-primary" type="submit"><i class="bi bi-binoculars"></i></button>
+        
+      </form> */}
     </div>
   </div>
 </nav>

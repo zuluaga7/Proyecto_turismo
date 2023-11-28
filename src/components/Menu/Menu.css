@@ -1,7 +1,19 @@
 .menu{
-    background-color: transparent;
+    background-color:transparent;
     
     }
-.d-flex{
+.login a{
     background-color: transparent;
+    margin-right: 41px;
+    text-decoration: none;
 }
+div img{
+    width: 15%;
+}
+.collapse a{
+    color: black;
+text-transform: uppercase;   
+    
+
+}
+

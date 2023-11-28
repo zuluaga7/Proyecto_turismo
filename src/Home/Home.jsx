@@ -5,6 +5,7 @@ import ContenidoPrincipal from '../components/ContenidoPrincipal/ContenidoPrinci
 import Carrusel from '../components/Carrusel/Carrusel'
 import PieDePagina from '../components/PieDePagina/PieDePagina'
 import Registrate from '../components/Registrate/Registrate'
+import Destinos from '../components/Destinos/Destinos'
 
 
 
@@ -26,10 +27,15 @@ export function Home() {
                 <ContenidoPrincipal>
                 </ContenidoPrincipal>
             </section>
-
-            <section>
+            
+             <section>
                 <Carrusel></Carrusel>
             </section>
+
+            <section>
+                <Destinos></Destinos>
+            </section>
+            
             <section>
                <Registrate></Registrate>
             </section>
