@@ -8,9 +8,9 @@ export default function Registrate() {
     
     <div class="relleno">
         <h1>¡Ahorra tiempo y dinero!</h1>
-    <h4><small> Registrate para ser el primero en recibir las últimas noticias sobre viajes, tours y mucho más!</small></h4>
+    <h4><small className='sub'> Registrate para ser el primero en recibir las últimas noticias sobre viajes, tours y mucho más!</small></h4>
       
-          <section>
+          <section className='irr'>
             <input type="email" placeholder="Tu dirección de e-mail" />
             <button className='env' type='submit'>¡Suscribite!</button>
           </section>

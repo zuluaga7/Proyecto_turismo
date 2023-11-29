@@ -6,17 +6,14 @@ body {
 }
 
 body {
-  background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 14px;
-  color: #000;
   margin: 0;
   padding: 0;
 }
 
 .swiper {
   width: 100%;
-  padding-top: 50px;
   padding-bottom: 50px;
   padding: 121px;
 }
@@ -28,27 +25,31 @@ body {
   height: 300px;
 }
 
+
 .swiper-slide img {
   display: block;
   width: 100%;
-  z-index: -1;
+  
 }
 .product-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 50px;
+ 
 }
 
 .product {
   text-align: center;
   padding: 30px;
   box-shadow: 0 0 20px rgba(0, 0, 0.1);
+  margin-bottom: 47px;
 }
 
 .product img {
-  width: 250px;
-  height: 370px;
+  width: 270px;
+  height: 281px;
   margin-bottom: 20px;
+  
 }
 
 .product h3 {
@@ -66,10 +67,18 @@ body {
 }
 .product a{
   position: sticky;
-  background-color: black;
+  background-color: rgb(196, 193, 193);
   justify-content: center;
   margin: 37px;
+  color: black;
+  
   
 }
 
+.jum{
+  font-size: 41px;
+  color:  rgb(24, 83, 83);
+  margin-left: 10px;
+
+}
 

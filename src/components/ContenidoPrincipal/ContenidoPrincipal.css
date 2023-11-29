@@ -1,5 +1,5 @@
 .cuerpo {
-    background-color: rgb(195, 212, 212);
+    background-color:   #F2EAED;
     padding: 31px;
 }
 .titulo {
@@ -7,6 +7,7 @@
     color: rgb(24, 83, 83);
     align-items: center;
     padding: 2%;
+
 }
 
 .texto{
@@ -15,12 +16,12 @@
     font-size: 16px;
     color: rgb(66, 56, 56);
     column-gap: 31px;
-    column-count: 3;
+    column-count: 2;
     padding: 15px;
 }
 #imagen{
    margin-top: 21px;
-   width: 241px;
-   height: 307px;
+   width: 461px;
+   height: 90vh;
    margin-left: 30px;
 }

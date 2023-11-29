@@ -1,6 +1,6 @@
 .footer {
     padding: 50px 0;
-    background-color:  rgb(195, 212, 212);
+    background-color:  #F2EAED;
 }
 
 .footer-content {
@@ -10,7 +10,7 @@
 
 .link h3 {
     font-size: 18px;
-    color: #030303;
+    color: rgb(27, 24, 24);
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -18,19 +18,22 @@
 
 .link a {
     font-size: 16px;
-    color: #100f0f;
+    color: #3b2525;
     display: block;
     margin-bottom: 10px;
 }
 
 .img{
-margin-left: 870px;
+margin-left: 851px;
+font-size: 31px;
 }
+
 .pie{
-   background-color: aliceblue;
+   background-color: rgb(155, 161, 168);
+   padding: 1px;
 }
 .pie h2{
-    color: rgb(16, 16, 107);
+    color: rgb(11, 11, 67);
     margin-left: 373px;
-    font-size: 21px;
+    font-size: 19px;
 }

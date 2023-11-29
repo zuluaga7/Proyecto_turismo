@@ -6,16 +6,16 @@ export default function PieDePagina() {
      <footer className="footer">
   <div className="footer-content container">
     <div className="link">
-      <h3>contacto</h3>
+      <h3>Qué hacer?</h3>
       <ul>
         <li>
-          <a href="#">Tel: 3213456784</a>
+          <a href="#">Aventura</a>
         </li>
         <li>
-          <a href="#">Pbx: 01 8000 31 65 78</a>
+          <a href="#">Cultura</a>
         </li>
         <li>
-          <a href="#">Escribenos</a>
+          <a href="#">Gastronomía</a>
         </li>
       </ul>
     </div>
@@ -23,10 +23,10 @@ export default function PieDePagina() {
       <h3>Quienes somos?</h3>
       <ul>
         <li>
-          <a href="#">Cultura</a>
+          <a href="#">Contacto</a>
         </li>
         <li>
-          <a href="#">Trabaja aquí</a>
+          <a href="#">Preguntas Frecuentes</a>
         </li>
         <li>
           <a href="#">La vida en Puebliando'Ando</a>
@@ -43,24 +43,22 @@ export default function PieDePagina() {
           <a href="#">Promociones</a>
         </li>
         <li>
-          <a href="#">Preguntas frecuentes</a>
+          <a href="#">Transporte</a>
         </li>
       </ul>
     </div>
   </div>
-  
   <nav className='img'>
-  <i id='one' class="bi bi-facebook"></i>
+  <i id='intento' class="bi bi-facebook"></i>
   <i class="bi bi-messenger"></i>
   <i class="bi bi-youtube"></i>
   <i class="bi bi-instagram"></i>
   <i class="bi bi-twitter-x"></i>
     </nav>    
-  
-  
-</footer>
+  </footer>
 <section className='pie'>
     <h2>© 2023 Antioquia es vida. Todos los derechos reservados.</h2>
+  
   </section>
 
         </>

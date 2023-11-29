@@ -1,19 +1,28 @@
 .menu{
-    background-color:transparent;
-    
-    }
-.login a{
-    background-color: transparent;
-    margin-right: 41px;
-    text-decoration: none;
+    background-color:  rgba(226, 223, 223, 0.823);
+    margin-right: 37px;
+    margin-left: 37px; 
+    height: 53px;  
 }
+.login a{
+    padding: 9px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar-collapse{
+    margin-right: px;
+}
+
 div img{
     width: 15%;
+    margin-left: 23px;
+    margin-top: 21px;
+    
 }
 .collapse a{
     color: black;
 text-transform: uppercase;   
+border-radius: 50%;
     
-
 }
 

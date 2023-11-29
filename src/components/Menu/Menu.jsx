@@ -1,12 +1,13 @@
 import '../Menu/Menu.css'
 import chiva from '../../assets/img/chiva.png'
+import logochivass from '../../assets/img/logochivass.png'
 export function Menu() {
     return (
         <>
 <nav className="navbar navbar-expand-lg navbar-dark fixed-top menu">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
-      <img src={chiva} alt="" />
+      <img src={logochivass} alt="" />
     </a>
     <button
       className="navbar-toggler"
@@ -23,7 +24,7 @@ export function Menu() {
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         
         <li className="nav-item dropdown">
-          <a
+          <a 
             className="nav-link dropdown-toggle"
             href="#"
             role="button"
@@ -45,7 +46,7 @@ export function Menu() {
             </li>
             <li>
               <a className="dropdown-item" href="#">
-                Santa fe de Antioquia
+                Urrao
               </a>
             </li>
             <li>
