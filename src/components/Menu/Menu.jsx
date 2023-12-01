@@ -1,13 +1,15 @@
 import '../Menu/Menu.css'
-import chiva from '../../assets/img/chiva.png'
-import logochivass from '../../assets/img/logochivass.png'
+import logo_chiva from '../../assets/img/logo_chiva.png'
+import chiva_l from '../../assets/img/chiva_l.png'
 export function Menu() {
     return (
         <>
+        
 <nav className="navbar navbar-expand-lg navbar-dark fixed-top menu">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
-      <img src={logochivass} alt="" />
+       <img src={logo_chiva} alt=""/> 
+      {/* <img src={chiva_l} alt=""/> */}
     </a>
     <button
       className="navbar-toggler"
@@ -91,8 +93,8 @@ export function Menu() {
         </li>
       </ul>
       <section className='login'>
-        <a href="">iniciar secion</a>
-        <a href="">crear cuenta</a>
+        <a href="">Iniciar sesión</a>
+        <a href="">Crear cuenta</a>
       </section>
       {/* <form className="d-flex" role="search">
         <input

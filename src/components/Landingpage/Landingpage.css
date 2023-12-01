@@ -16,3 +16,12 @@
 div video{
   width: 100%;
 }
+@media (max-width: 768px) {
+  .landingpage {
+      height: auto; 
+  }
+
+  .landingpage video {
+      height: auto; 
+  }
+}

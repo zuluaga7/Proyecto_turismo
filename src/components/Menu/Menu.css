@@ -2,27 +2,45 @@
     background-color:  rgba(226, 223, 223, 0.823);
     margin-right: 37px;
     margin-left: 37px; 
-    height: 53px;  
+    height: 53px;
+     
 }
 .login a{
-    padding: 9px;
     text-decoration: none;
     text-transform: uppercase;
+    margin-right: 21px;
 }
-.navbar-collapse{
-    margin-right: px;
-}
+.navbar-brand {
+    width: 30%;
+    height: 30px;
 
-div img{
-    width: 15%;
-    margin-left: 23px;
-    margin-top: 21px;
-    
 }
+.navbar-brand img{
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+}
+/* .div img{
+    width: 17%;
+    margin-left: 23px;
+    margin-top: 45px;
+
+     */
 .collapse a{
     color: black;
 text-transform: uppercase;   
 border-radius: 50%;
     
 }
+@media (max-width: 768px) {
+    .menu {
+        margin-right: 10px; 
+        margin-left: 10px; 
+    }
 
+    div img {
+        width: 10%; 
+        margin-left: 10px; 
+        margin-top: 10px; 
+    }
+}

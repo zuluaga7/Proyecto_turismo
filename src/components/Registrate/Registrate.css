@@ -28,3 +28,18 @@
     background-color: rgb(118, 122, 122);
     margin-left: 17px;
 }
+@media (max-width: 768px) {
+    .Formulario {
+        padding: 5%; 
+    }
+
+    .relleno {
+        margin-left: 5%;
+        font-size: 36px;
+        padding: 5%;
+    }
+
+    .irr {
+        margin-left: 2%;
+    }
+}

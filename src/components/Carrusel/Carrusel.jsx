@@ -21,8 +21,8 @@ import cerro_c from '../../assets/img/cerro_c.webp'
 import guata_c from '../../assets/img/guata_c.jpeg'
 import paaramo_c from '../../assets/img/paaramo_c.jpg'
 import paramo_c from '../../assets/img/paramo_c.jpg'
-import piedra_c from '../../assets/img/piedra_c.avif'
-import indio from '../../assets/img/cascada_indio.jpg'
+import piedra_c from '../../assets/img/piedra_c.jpg'
+
 
 
 
@@ -57,7 +57,8 @@ export default function App() {
         <SwiperSlide ><img src={guata_c} alt="" /></SwiperSlide>
         <SwiperSlide ><img id='cinco' src={cascada_samaria_c} alt="" /></SwiperSlide>
         <SwiperSlide ><img src={paaramo_c} alt="" /></SwiperSlide>
-        <SwiperSlide ><img src={indio} alt="" /></SwiperSlide>
+       
+       
 
 
 

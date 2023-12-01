@@ -37,3 +37,18 @@ font-size: 31px;
     margin-left: 373px;
     font-size: 19px;
 }
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; 
+        text-align: center;
+    }
+
+    .img, .pie h2 {
+        margin-left: 0; 
+       
+    }
+    .pie h2{
+        color: rgb(11, 11, 67);
+        font-size: 17px;
+    }
+}
