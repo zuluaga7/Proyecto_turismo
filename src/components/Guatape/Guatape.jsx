@@ -8,7 +8,7 @@ const Guatape = () => {
     <div>
       <>
       <h3>Pueblo a descubrir</h3>
-  <h1>San Rafael, embrujo de aguas cristalinas</h1>
+  <h1>Guatapé y la piedra del peñol</h1>
   <a href="https://turismoantioquia.travel/san-rafael/" target="_blank">
     {" "}
     <img
@@ -19,80 +19,62 @@ const Guatape = () => {
     />{" "}
   </a>
   <p>
-    <strong>San Rafael Ant; queda a solo 116 km/h de medellin</strong> por
-    carretera pavimentada. ofrece una temperatura promedio de 28 grados y es
-    conocida como la capital hidro-energética de colombia y pueblo luz, por ser
-    el único que alberga en su territorio tres centrales hidroeléctricas:
-    Guatapé, jaguas y playas.
+  Como en los cuentos de García Márquez, Guatapé es realismo mágico, un “pueblo en 
+  la montaña con un pedazo de mar en el corazón”; está ubicado a 81 kilómetros de distancia
+   de Medellín y su nombre está relacionado con el recordado cacique Guatapé, que comandaba 
+   muchas de sus tierras.
   </p>
   <p>
-    El municipio que se encuentra situado en el oriente antioqueño, a 1000msnm,
-    tiene una superficie de 362 kilometros cuadrados de abundante naturaleza. Su
-    principal atractivo es hídrico, ya que de las represas cuenta con 90 charcos
-    de aguas natural, 8 cascadas con su caminata correspondiente ,
-    convirtiéndolo en un lugar ideal para los amantes de las actividades
-    náuticas y extremas.
+  Es uno de los destinos preferidos por los turistas que visitan Antioquia, ya que cuenta con dos 
+  grandes atractivos: el embalse que lleva su nombre y también los muy conocidos zócalos. El embalse 
+  del Río Nare se construyó en 1970 y se convirtió en el espejo de agua más grande de Colombia, 
+  inundando 6.240 hectáreas que llevaron incluso al traslado de la cabecera urbana a una nueva ubicación;
+   todo esto llevó a que las montañas se convirtieran en islas y el paisaje de la región fuera transformado 
+   para siempre.
   </p>
   <p>
-    Algunas de sus fiestas y eventos más importantes son las Fiestas del río,
-    que se realizan en el primer puente festivo de junio, el concurso deportivo
-    de pesca, en el mes de julio; las Fiestas del comercio, en agosto y las
-    Fiestas patronales en honor a San Rafafel Arcangel, en octubre.
+  La estética tradicional y los colores vivos le dan una personalidad coqueta y alegre al municipio. 
+  Las casas están vestidas con obras de arte llamadas zócalos, en los que se dibujan, esculpen, 
+  tallan y pintan figuras geométricas, siluetas, momentos y formas que hablan de la idiosincrasia antioqueña.
   </p>
   <p>
-    Cuenta con una buena infraestructura hotelera, tanto en el casco urbano como
-    en la parte rural. La gastronomía del lugar es reconocida, pues sus
-    restaurantes ofrecen gran variedad de platos típicos de la región, entre
-    ellos <strong>"la casa del pollo".</strong>
+  Guatapé está a 1 hora y 49 minutos de Medellín. Visítalo y quedarás sorprendido con su belleza.
   </p>
-  <p>
-    En cuanto a transporte público, para llegar a San Rafael se pueden utilizar
-    Sotrapeñol y Sotrasanvicente, dos empresas de transporte que despachan buses
-    desde y hacia Medellín cada media hora, iniciando desde las 4 de la mañana y
-    finalizando a las 5:45 de la tarde.
-  </p>
+
   <p>
     Para los afiliados a la plataforma tenemos disponible el transporte en vans
     de la empresa junto con los guías locales
   </p>
   <div>
-    <h1>Qué hacer en San Rafael - Antioquia</h1>
+    <h1>Qué hacer en Guatape - Antioquia</h1>
     <ul>
       <li>
-        <p>Tubing </p>
+        <p>Malecón </p>
       </li>
       <li>
-        <p>Apicultor por un día</p>
+        <p>El Peñón de Guatapé</p>
       </li>
       <li>
-        <p>Caminatas y Ríos</p>
+        <p>Inmersión en Guatapé</p>
       </li>
       <li>
-        <p>Visitas a fincas cafeteras para disfrutar de su proceso artesanal</p>
+        <p>Calles y parque principal</p>
       </li>
       <li>
-        <p>Canyoning</p>
+        <p>El embalse de Guatapé</p>
       </li>
     </ul>
-    <h1>Lugares para visitar</h1>
-    <ul>
-      <li>
-        <p>Cerro pan de azúcar</p>
-      </li>
-      <li>
-        <p>Cascada del indio</p>
-      </li>
-      <li>
-        <p>Finca la </p>
-      </li>
-      <h1>
+     
+    <h1>
         {" "}
         <small> Disfruta la experiencia!!!</small>
-        <Link to="/">Volver</Link>
+       
       </h1>
       <Link to="/login" type='button'>Click para ingresar y activar membreseía</Link>
-    </ul>
+      
   </div>
+  <section><Link to="/">Volver</Link></section>
+  
       </>
     </div>
   )

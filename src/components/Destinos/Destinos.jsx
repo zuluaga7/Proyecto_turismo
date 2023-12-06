@@ -22,6 +22,10 @@ import sanrafa_ir from '../../assets/img/sanrafa_ir.jpg'
 import urrao_ir from '../../assets/img/urrao_ir.jpg'
 import venecia_ir from '../../assets/img/venecia_ir.jpg'
 import Guatape from '../Guatape/Guatape';
+import Jardin from '../Jardin/Jardin';
+import Jerico from '../Jerico/Jerico';
+import Urrao from '../Urrao/Urrao';
+import Venecia from '../Venecia/Venecia';
 
 
 export default function App() {
@@ -67,9 +71,8 @@ export default function App() {
                 <h3>Jardín</h3>
                 <p>Pueblo de los muchos cerros</p>
                 <p className="precio">$450'000</p>
-                <a href="#" className="agregar-carrito btn-2" data-id={2}>
-                  Ver viaje
-                </a>
+                <Link to='/destinos/Jardin' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
+                
               </div>
             </div>
           </SwiperSlide>
@@ -80,9 +83,7 @@ export default function App() {
                 <h3>Jericó</h3>
                 <p>Las Atenas del suroeste Antioqueño</p>
                 <p className="precio">$450'000</p>
-                <a href="#" className="agregar-carrito btn-2" data-id={2}>
-                  Ver viaje
-                </a>
+                <Link to='/destinos/Jerico' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
               </div>
             </div>
           </SwiperSlide>
@@ -104,9 +105,7 @@ export default function App() {
                 <h3>Urrao</h3>
                 <p>Un paraíso natural de Antioquia</p>
                 <p className="precio">$450'000</p>
-                <a href="#" className="agregar-carrito btn-2" data-id={2}>
-                  Ver viaje
-                </a>
+                <Link to='/destinos/Urrao' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
               </div>
             </div>
           </SwiperSlide>
@@ -117,9 +116,7 @@ export default function App() {
                 <h3>Venecia</h3>
                 <p>La pirámide natural más grande</p>
                 <p className="precio">$450'000</p>
-                <a href="https://turismoantioquia.travel/san-rafael/" target="_blank" className="agregar-carrito btn-2" data-id={2}>
-                  Ver viaje
-                </a>
+                <Link to='/destinos/Venecia' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
               </div>
             </div>
           </SwiperSlide>
@@ -131,6 +128,13 @@ export default function App() {
     <Routes>
       <Route path='/destinos/San-rafael' element={<SanRafael />}></Route>
       <Route path='/destinos/Guatape' element={<Guatape />}> </Route>
+      <Route path='/destinos/Jardin' element={<Jardin />}></Route>
+      <Route path='/destinos/Jerico' element={<Jerico />}></Route>
+      <Route path='/destinos/Urrao' element={<Urrao />}></Route>
+      <Route path='/destinos/Venecia' element={<Venecia />}></Route>
+    
+      
+
       <Route path='/registro' element={<Registrate />}></Route>
       <Route path='/login' element={<InicioSesion />}></Route>
     </Routes>

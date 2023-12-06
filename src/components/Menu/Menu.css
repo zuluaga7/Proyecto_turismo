@@ -2,7 +2,7 @@
     background-color:  rgba(226, 223, 223, 0.823);
     margin-right: 37px;
     margin-left: 37px; 
-    height: 53px;
+    height: 47px;
      
 }
 .login a{
@@ -11,14 +11,15 @@
     margin-right: 21px;
 }
 .navbar-brand {
-    width: 30%;
-    height: 30px;
+    width: 40%;
+    height: 47px;
 
 }
 .navbar-brand img{
-    width: 120px;
+    width: 100px;
     height: 100px;
     object-fit: cover;
+    margin-top: -4px;
 }
 /* .div img{
     width: 17%;

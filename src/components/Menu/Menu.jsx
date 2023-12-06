@@ -1,7 +1,6 @@
 import '../Menu/Menu.css'
 import logo_chiva from '../../assets/img/logo_chiva.png'
-import chiva_l from '../../assets/img/chiva_l.png'
-import Registrate from '../Registrate/Registrate'
+
 
 export function Menu() {
     return (
@@ -94,11 +93,7 @@ export function Menu() {
           </a>
         </li>
       </ul>
-      <section className='login'>
-        <a href="">Iniciar sesión</a>
-
-        <a href="">Crear cuenta</a>
-      </section>
+     
       {/* <form className="d-flex" role="search">
         <input
           className="form-control me-5" 
