@@ -21,7 +21,9 @@
     font-size: 21px;
     color: rgb(14, 108, 108);
     align-items: center;
-    margin-left: 71px;
+    margin-left:    1px;
+    column-gap: normal;
+    column-count: 3;
 }
 
 .env{

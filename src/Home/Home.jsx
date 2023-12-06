@@ -137,11 +137,6 @@ export function Home() {
             <section>
                 <Destinos></Destinos>
             </section>
-            
-            <section>
-               <Registrate></Registrate>
-            </section>
-
             <section>
                 <PieDePagina></PieDePagina>
             </section>

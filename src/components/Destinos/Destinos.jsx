@@ -1,6 +1,10 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom'
+import SanRafael from '../SanRafael/SanRafael';
+import Registrate from '../Registrate/Registrate'
+import InicioSesion from '../InicioSesion/InicioSesion';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -17,14 +21,15 @@ import parque_de_jerico_ir from '../../assets/img/parque_de_jerico_ir.jpg'
 import sanrafa_ir from '../../assets/img/sanrafa_ir.jpg'
 import urrao_ir from '../../assets/img/urrao_ir.jpg'
 import venecia_ir from '../../assets/img/venecia_ir.jpg'
+import Guatape from '../Guatape/Guatape';
 
 
 export default function App() {
 
 
   return (
-
-    <>
+    <Router>
+      <>
       <h1><small className='jum'>Rutas turísticas para conocer Antioquia</small></h1>
       <Swiper
         effect={'coverflow'}
@@ -50,9 +55,7 @@ export default function App() {
                 <h3>Guatapé</h3>
                 <p>Pueblo de Zócalos</p>
                 <p className="precio">$18'250'531</p>
-                <a href="#" className="agregar-carrito btn-2" data-id={1}>
-                  Ver viaje
-                </a>
+                <Link to='/destinos/Guatape' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
               </div>
             </div>
           </SwiperSlide>
@@ -90,9 +93,7 @@ export default function App() {
                 <h3>San Rafael</h3>
                 <p>Embrujo de aguas cristalinas</p>
                 <p className="precio">$450'000</p>
-                <a href="#" className="agregar-carrito btn-2" data-id={2}>
-                  Ver viaje
-                </a>
+                <Link to='/destinos/San-rafael' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
               </div>
             </div>
           </SwiperSlide>
@@ -127,6 +128,12 @@ export default function App() {
       </Swiper>
 
     </>
-
+    <Routes>
+      <Route path='/destinos/San-rafael' element={<SanRafael />}></Route>
+      <Route path='/destinos/Guatape' element={<Guatape />}> </Route>
+      <Route path='/registro' element={<Registrate />}></Route>
+      <Route path='/login' element={<InicioSesion />}></Route>
+    </Routes>
+    </Router>
   );
 }
