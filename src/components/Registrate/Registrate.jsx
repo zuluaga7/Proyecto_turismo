@@ -109,7 +109,7 @@ export default function Registrate() {
               <button type="button" className="boton-entrar" onClick={registrarCuenta}>
                 Registrar cuenta
               </button>
-              <Link to="/">Volver</Link>
+              <Link id='zzz' to="/">Salir</Link>
             </form>
           </section>
         </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Urrao.css'
-import sanrafael_parque_viaje from '../../assets/img/parqueprincipal_sanrafel_viaje.jpg'
+import urrao_viaje from '../../assets/img/urrao_viaje.jpg'
 import { Link } from 'react-router-dom'
 
 const Urrao = () => {
@@ -9,10 +9,10 @@ const Urrao = () => {
       <>
   <h3>Pueblo a descubrir</h3>
   <h1>Urrao, "el paraíso perdido" de Antioquia</h1>
-  <a href="https://turismoantioquia.travel/san-rafael/" target="_blank">
+  <a>
     {" "}
     <img
-      src={sanrafael_parque_viaje}
+      src={urrao_viaje}
       alt="parque"
       width={240}
       height={330}

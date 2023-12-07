@@ -2,7 +2,6 @@ import React, { useRef, useState } from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { BrowserRouter as Router, Link, Routes, Route } from 'react-router-dom'
-import SanRafael from '../SanRafael/SanRafael';
 import Registrate from '../Registrate/Registrate'
 import InicioSesion from '../InicioSesion/InicioSesion';
 
@@ -24,6 +23,7 @@ import venecia_ir from '../../assets/img/venecia_ir.jpg'
 import Guatape from '../Guatape/Guatape';
 import Jardin from '../Jardin/Jardin';
 import Jerico from '../Jerico/Jerico';
+import SanRafael from '../SanRafael/SanRafael';
 import Urrao from '../Urrao/Urrao';
 import Venecia from '../Venecia/Venecia';
 

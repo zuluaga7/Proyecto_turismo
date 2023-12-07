@@ -1,0 +1,51 @@
+.rellleno{
+    margin-left: 341px;
+    margin-right: 341px;
+    font-size: 41px;
+    color: rgb(236, 238, 238);
+    align-items: center;
+
+}
+.Formularioo{
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    background-color:#bbacac;
+   padding: 23px;
+    align-items: center;
+    color: rgb(130, 110, 110);
+    border-style: double;
+}
+.irrr{
+    color: rgb(14, 108, 108);
+    margin-left: 21px;
+}
+#goo{
+margin-left: 17px;
+padding: 1%;
+border-radius: 50%;
+background-color: #a29999;
+border-color: rgb(189, 189, 103);
+}
+.aaa{
+    margin-bottom: 20px;
+}
+#a-b{
+    color: rgb(14, 108, 108);
+    text-decoration: none;
+    font-size: large;
+    margin-top: 41px;
+    border-radius: 50%;
+    padding: 1%;
+    background-color: #bbacac;
+}
+#b-a{
+    color: rgb(14, 108, 108);
+    text-decoration: none;
+    font-size: large;
+    margin-top: 41px;
+    margin-left: 200px;
+    border-radius: 50%;
+    padding: 1%;
+    background-color: #bbacac;
+
+}

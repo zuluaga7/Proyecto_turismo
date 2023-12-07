@@ -1,7 +1,7 @@
 import React from 'react'
 import './Guatape.css'
 import { Link } from 'react-router-dom'
-import sanrafael_parque_viaje from '../../assets/img/parqueprincipal_sanrafel_viaje.jpg'
+import guatape_viaje from '../../assets/img/guatape_viaje.jpg'
 
 const Guatape = () => {
   return (
@@ -9,10 +9,10 @@ const Guatape = () => {
       <>
       <h3>Pueblo a descubrir</h3>
   <h1>Guatapé y la piedra del peñol</h1>
-  <a href="https://turismoantioquia.travel/san-rafael/" target="_blank">
+  <a>
     {" "}
     <img
-      src={sanrafael_parque_viaje}
+      src={guatape_viaje}
       alt="parque"
       width={240}
       height={330}

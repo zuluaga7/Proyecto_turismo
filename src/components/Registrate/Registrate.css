@@ -21,14 +21,25 @@
     font-size: 21px;
     color: rgb(14, 108, 108);
     align-items: center;
-    margin-left:    1px;
-    column-gap: normal;
-    column-count: 3;
 }
-
-.env{
-    background-color: rgb(118, 122, 122);
-    margin-left: 17px;
+.boton-entrar{
+    margin-top: 27px;
+    margin-right: 170px;
+    padding: 1%;
+    border-radius: 50%;
+    border-color: antiquewhite;
+}
+#zzz{
+   text-decoration: none;
+   color: black;
+   padding: 1%;
+   border-radius: 50%;
+   border-color: antiquewhite;
+   background-color: rgb(229, 229, 235);
+}
+.piee{
+    background-color: rgb(195, 193, 191);
+    margin-top: 20px;
 }
 @media (max-width: 768px) {
     .Formulario {

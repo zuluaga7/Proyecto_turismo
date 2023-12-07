@@ -1,13 +1,31 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom'
-
+import { Link, Router, Routes } from 'react-router-dom'
+import './InicioSesion.css'
 export default function InicioSesion() {
     return (
-        <div>
-            <h1>Inicio de sesión</h1>
-            <Link to="/registro" type='button'>Si no tienes una cuenta registrate</Link>
-            <Link to="/">Volver</Link>
-        </div>
+        <>
+               <div className='rellleno'>
+            <h1 id='titolo'>Inicio de sesión</h1>
+            <form className="Formularioo">
+                <section className='irrr'>
+                <input type="text" 
+                placeholder='usuario'
+                />
+                <input type="password"
+                placeholder='contraseña'
+                />
+                <button id='goo'>go</button>
+                </section>
+                
+            </form>
+            <section className='aaa'>
+            <Link id='a-b' to="/registro" type='button'>Si no tienes una cuenta registrate</Link>
+            <Link id='b-a' to="/">Volver</Link>
+
+            </section>
+            </div>
+        </>
+        
     );
 }
 // export default function IniciarSesion({ cuentasRegistradas, onLogin }) {
