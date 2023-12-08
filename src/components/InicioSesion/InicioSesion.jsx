@@ -20,7 +20,7 @@ export default function InicioSesion() {
             </form>
             <section className='aaa'>
             <Link id='a-b' to="/registro" type='button'>Si no tienes una cuenta registrate</Link>
-            <Link id='b-a' to="/">Volver</Link>
+            <Link id='b-a' to="/">Salir</Link>
 
             </section>
             </div>
