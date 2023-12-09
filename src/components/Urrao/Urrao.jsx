@@ -5,19 +5,20 @@ import { Link } from 'react-router-dom'
 
 const Urrao = () => {
   return (
-    <div>
+    <div className='cuerpoo'>
       <>
-  <h3>Pueblo a descubrir</h3>
-  <h1>Urrao, "el paraíso perdido" de Antioquia</h1>
+  <h3 className='tituloo'>Pueblo a descubrir</h3>
+  <h1 className='titulooo'>Urrao, "el paraíso perdido" de Antioquia</h1>
   <a>
     {" "}
-    <img
+    <img id='imagenn'
       src={urrao_viaje}
       alt="parque"
       width={240}
       height={330}
     />{" "}
   </a>
+  <aside className='textoo'>
   <p>
   Este municipio, ubicado en la región suroeste del departamento, se encuentra a 130 
   kilómetros de Medellín y cuenta con una temperatura promedio de 14 grados centígrados.
@@ -39,31 +40,32 @@ const Urrao = () => {
   En cuanto a su riqueza gastronómica, sin duda el queso dulce de Urrao es la especialidad 
   de la casa. En resumen, se trata de un municipio de vocación aventurera y 100% natural.
   </p>
-  
+  </aside>
   <div>
-    <h1>Qué hacer en Urrao - Antioquia</h1>
-    <ul>
+    <h1 className='titulooo'>Qué hacer en Urrao - Antioquia</h1>
+    <ul id='p-a'>
       <li>
-        <p>páramo del Sol </p>
+        <p id='p-b'>páramo del Sol </p>
       </li>
       <li>
-        <p>Reserva del Colibrí del sol</p>
+        <p id='p-b'>Reserva del Colibrí del sol</p>
       </li>
       <li>
-        <p>Valle de Penderisco</p>
+        <p id='p-b'>Valle de Penderisco</p>
       </li>
       <li>
-        <p>Parque Nacional Las Oquídeas</p>
+        <p id='p-b'>Parque Nacional Las Oquídeas</p>
       </li>
     </ul>
-    <h1>
+    <section className='piee'> 
+    <h1 id='p-c'>
         {" "}
         <small> Disfruta la experiencia!!!</small>
-        <Link to="/">Volver</Link>
-      </h1>
-      <Link to="/login" type='button'>Click para ingresar y activar membreseía</Link>
-    
-  </div>
+              </h1>
+              <Link id='p-d' to="/">Volver</Link>
+              <Link id='p-d' to="/login" type='button'>Click para ingresar y activar membreseía</Link>
+              </section>
+    </div>
 </>
 
     </div>

@@ -20,7 +20,7 @@ export default function PieDePagina() {
       </ul>
     </div>
     <div className="link">
-      <h3>Quienes somos?</h3>
+      <h3>Quiénes somos?</h3>
       <ul>
         <li>
           <a href="#">Contacto</a>
@@ -49,11 +49,11 @@ export default function PieDePagina() {
     </div>
   </div>
   <nav className='img'>
-  <i id='intento' class="bi bi-facebook"></i>
-  <i class="bi bi-messenger"></i>
-  <i class="bi bi-youtube"></i>
-  <i class="bi bi-instagram"></i>
-  <i class="bi bi-twitter-x"></i>
+  <a id='intento' href="https://www.instagram.com/kzuluaga777/" target="_blank"  class="bi bi-facebook"></a>
+  <a id='intento' href="https://www.instagram.com/kzuluaga777/" target="_blank" class="bi bi-messenger"></a>
+  <a id='intento' href="https://www.instagram.com/kzuluaga777/" target="_blank" class="bi bi-youtube"></a>
+  <a id='intento' href="https://www.instagram.com/kzuluaga777/" target="_blank" class="bi bi-instagram"></a>
+  <a id='intento' href="https://www.instagram.com/kzuluaga777/" target="_blank" class="bi bi-twitter-x"></a>
     </nav>    
   </footer>
 <section className='pie'>

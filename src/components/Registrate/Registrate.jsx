@@ -55,7 +55,7 @@ export default function Registrate() {
     <div>
       <form className="Formulario">
         <div className="relleno">
-          <h1>¡Ahorra tiempo y dinero!</h1>
+          <h1 className='titulo'>¡Ahorra tiempo y dinero!</h1>
           <h4>
             <small className="sub">
               Regístrate para ser el primero en recibir las últimas noticias sobre viajes, tours y mucho más!
@@ -106,10 +106,13 @@ export default function Registrate() {
                 onChange={handleChange}
 
               />
-              <button type="button" className="boton-entrar" onClick={registrarCuenta}>
+              <section>
+              <button id='p-e' type="button" className="boton-entrar" onClick={registrarCuenta}>
                 Registrar cuenta
               </button>
-              <Link id='zzz' to="/">Salir</Link>
+              <Link id='p-f' to="/login">volver</Link>
+              </section>
+              
             </form>
           </section>
         </div>

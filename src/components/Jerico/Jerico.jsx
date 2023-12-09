@@ -5,19 +5,20 @@ import { Link } from 'react-router-dom'
 
 const Jerico = () => {
   return (
-    <div>
+    <div className='cuerpoo'>
       <>
-  <h3>Pueblo a descubrir</h3>
-  <h1>Jericó, el reino del Carriel</h1>
+  <h3 className='tituloo'>Pueblo a descubrir</h3>
+  <h1 className='titulooo'>Jericó, el reino del Carriel</h1>
   <a>
     {" "}
-    <img
+    <img id='imagenn'
       src={jerico_viaje}
       alt="parque"
       width={240}
       height={330}
     />{" "}
   </a>
+  <aside className='tectoo'>
   <p>
   Donde el cielo es más azul y el viento pasa como queriéndose quedar, está Jericó, 
   una joya turística del Suroeste. Este municipio está ubicado en el suroeste del 
@@ -43,42 +44,43 @@ const Jerico = () => {
    también es destino de turismo religioso por su Museo de Arte Religioso y sus diferentes 
    iglesias. Jericó, hace parte de la Red Turística de Pueblos Patrimonio de Colombia.
   </p>
- 
-  
+  </aside>
   <div>
-    <h1>Qué hacer en Jericó - Antioquia</h1>
-    <ul>
+    <h1 className='titulooo'>Qué hacer en Jericó - Antioquia</h1>
+    <ul id='p-a'>
       <li>
-        <p> Recorrido por las iglesias de Jericó </p>
+        <p id='p-b'> Recorrido por las iglesias de Jericó </p>
       </li>
       <li>
-        <p>Morro el cristo</p>
+        <p id='p-b'>Morro el cristo</p>
       </li>
       <li>
-        <p>Casa Natal Santa Laura Montoya Upegui</p>
+        <p id='p-b'>Casa Natal Santa Laura Montoya Upegui</p>
       </li>
       <li>
-        <p>Chorros de Quebradona</p>
+        <p id='p-b'>Chorros de Quebradona</p>
       </li>
     </ul>
-    <h1>Lugares para visitar</h1>
-    <ul>
+    <h1 className='titulooo'>Lugares para visitar</h1>
+    <ul id='p-a'>
       <li>
-        <p>Centro de historia</p>
+        <p id='p-b'>Centro de historia</p>
       </li>
       <li>
-        <p>Musea Casa de la Música</p>
+        <p id='p-b'>Musea Casa de la Música</p>
       </li>
       <li>
-        <p>Centro cultural Bomarzo </p>
+        <p id='p-b'>Centro cultural Bomarzo </p>
       </li>
-      <h1>
+      <section className='piee'>
+      <h1 id='p-c'>
         {" "}
         <small> Disfruta la experiencia!!!</small>
-        <Link to="/">Volver</Link>
-      </h1>
-      <Link to="/login" type='button'>Click para ingresar y activar membreseía</Link>
-    </ul>
+         </h1>
+         <Link id='p-d' to="/">Volver</Link>
+         <Link id='p-d' to="/login" type='button'>Click para ingresar y activar membreseía</Link>
+         </section>
+      </ul>
   </div>
 </>
 

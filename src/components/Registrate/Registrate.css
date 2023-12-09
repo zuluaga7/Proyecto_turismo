@@ -1,4 +1,51 @@
-.Formulario{
+.Formulario {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: 421px;
+    background-color: #f0e8e8;
+}
+
+.relleno {
+    margin: 20px 0;
+
+}
+
+.sub {
+    color: #888;
+}
+
+.irr {
+    margin-top: 20px;
+    padding: 1px;
+}
+
+#p-e {
+    color: rgb(24, 83, 83);
+    text-decoration: none;
+    background-color: rgb(200, 208, 208);
+    border-radius: 50%;
+    padding: 1%;
+    margin-top: 27px;
+}
+#p-f{
+    background-color: rgb(163, 158, 158);
+    text-decoration: none;
+    color:  rgb(24, 83, 83);
+    margin-left: 30px;
+    padding: 3%;
+    border-radius: 50%;
+    
+}
+
+/* Estilos adicionales según tu estructura */
+
+
+/* .Formulario{
     font-family: 'Arial', sans-serif;
     font-size: 16px;
     background-color:#dbd0d0;
@@ -12,6 +59,10 @@
     color: rgb(24, 83, 83);
     align-items: center;
     padding: 2%;
+}
+#form-registro{
+    padding: 20px;
+    columns: 1;
 }
 .sub{
     justify-content: center;
@@ -55,4 +106,4 @@
     .irr {
         margin-left: 2%;
     }
-}
+} */

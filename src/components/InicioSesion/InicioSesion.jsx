@@ -5,7 +5,7 @@ export default function InicioSesion() {
     return (
         <>
                <div className='rellleno'>
-            <h1 id='titolo'>Inicio de sesión</h1>
+            <h1 id='titolo'>Inicio de Sesión</h1>
             <form className="Formularioo">
                 <section className='irrr'>
                 <input type="text" 

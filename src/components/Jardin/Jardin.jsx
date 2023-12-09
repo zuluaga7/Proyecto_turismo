@@ -7,18 +7,19 @@ import { Link } from "react-router-dom";
 
  const Jardin = () => {
   return (
-    <>
-        <h3>Pueblo a descubrir</h3>
-  <h1>Jardín, Ciudad de los muchos cerros</h1>
+    <div className="cuerpoo">
+        <h3 className="tituloo">Pueblo a descubrir</h3>
+  <h1 className="titulooo">Jardín, Ciudad de los muchos cerros</h1>
   <a>
     {" "}
-    <img
+    <img id="imagenn"
       src={jardin_viaje}
       alt="parque"
       width={240}
       height={330}
     />{" "}
   </a>
+  <aside className="textoo">
   <p>
   Jardín, que recibe el apelativo de “el más bello de Antioquia”, es un municipio 
   ubicado en el suroeste del departamento, a 131 kilómetros de Medellín.
@@ -40,43 +41,47 @@ import { Link } from "react-router-dom";
    históricos de la zona urbana.
   </p>
   
+  </aside>
+  
   <div>
-    <h1>Qué hacer en Jardín - Antioquia</h1>
-    <ul>
+    <h1 className="titulooo">Qué hacer en Jardín - Antioquia</h1>
+    <ul id="p-a">
       <li>
-        <p>Teatro municipal</p>
+        <p id="p-b">Teatro municipal</p>
       </li>
       <li>
-        <p>Basílica Menor de la Inmaculada Concepción</p>
+        <p id="p-b">Basílica Menor de la Inmaculada Concepción</p>
       </li>
       <li>
-        <p>Casa Museo Clara Rojas</p>
+        <p id="p-b">Casa Museo Clara Rojas</p>
       </li>
       <li>
-        <p>Visitas a fincas cafeteras para disfrutar de su proceso artesanal</p>
+        <p id="p-b">Visitas a fincas cafeteras para disfrutar de su proceso artesanal</p>
       </li>
       <li>
-        <p>Teleférico</p>
+        <p id="p-b">Teleférico</p>
       </li>
     </ul>
-    <h1>Lugares para visitar</h1>
-    <ul>
+    <h1 className="titulooo">Lugares para visitar</h1>
+    <ul id="p-a">
       <li>
-        <p>Cerro Cristo Rey</p>
+        <p id="p-b">Cerro Cristo Rey</p>
       </li>
       <li>
-        <p>Cascada la Escalera</p>
+        <p id="p-b">Cascada la Escalera</p>
       </li>
-      <h1>
+      <section className="piee">
+      <h1 id="p-c">
         {" "}
         <small> Disfruta la experiencia!!!</small>
-        <Link to="/">Volver</Link>
-      </h1>
-      <Link to="/login" type='button'>Click para ingresar y activar membreseía</Link>
-    </ul>
+        </h1>
+        <Link id="p-d" to="/">Volver</Link>
+      <Link id="p-d" to="/login" type='button'>Click para ingresar y activar membreseía</Link>
+      </section>
+  </ul>
   </div>
 
-    </>
+    </div>
   )
 }
 export default Jardin

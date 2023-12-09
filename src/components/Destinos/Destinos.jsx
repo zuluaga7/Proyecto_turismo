@@ -58,7 +58,7 @@ export default function App() {
               <div className="product-txt">
                 <h3>Guatapé</h3>
                 <p>Pueblo de Zócalos</p>
-                <p className="precio">$18'250'531</p>
+                <p className="precio">$1'250'531</p>
                 <Link to='/destinos/Guatape' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
               </div>
             </div>
@@ -70,7 +70,7 @@ export default function App() {
               <div className="product-txt">
                 <h3>Jardín</h3>
                 <p>Pueblo de los muchos cerros</p>
-                <p className="precio">$450'000</p>
+                <p className="precio">$750'000</p>
                 <Link to='/destinos/Jardin' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
                 
               </div>
@@ -82,7 +82,7 @@ export default function App() {
               <div className="product-txt">
                 <h3>Jericó</h3>
                 <p>Las Atenas del suroeste Antioqueño</p>
-                <p className="precio">$450'000</p>
+                <p className="precio">$650'000</p>
                 <Link to='/destinos/Jerico' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function App() {
               <div className="product-txt">
                 <h3>San Rafael</h3>
                 <p>Embrujo de aguas cristalinas</p>
-                <p className="precio">$450'000</p>
+                <p className="precio">$950'000</p>
                 <Link to='/destinos/San-rafael' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function App() {
               <div className="product-txt">
                 <h3>Urrao</h3>
                 <p>Un paraíso natural de Antioquia</p>
-                <p className="precio">$450'000</p>
+                <p className="precio">$750'000</p>
                 <Link to='/destinos/Urrao' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
               </div>
             </div>
@@ -115,7 +115,7 @@ export default function App() {
               <div className="product-txt">
                 <h3>Venecia</h3>
                 <p>La pirámide natural más grande</p>
-                <p className="precio">$450'000</p>
+                <p className="precio">$950'000</p>
                 <Link to='/destinos/Venecia' className="agregar-carrito btn-2" data-id={2}>Ver viaje</Link>
               </div>
             </div>
@@ -134,7 +134,7 @@ export default function App() {
       <Route path='/destinos/Venecia' element={<Venecia />}></Route>
     
       
-
+        <Route path='/Menu/Guatape' element={<Guatape />}> </Route>
       <Route path='/registro' element={<Registrate />}></Route>
       <Route path='/login' element={<InicioSesion />}></Route>
     </Routes>

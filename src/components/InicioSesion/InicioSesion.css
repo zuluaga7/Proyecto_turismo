@@ -6,6 +6,11 @@
     align-items: center;
 
 }
+#titolo{
+    color: black;
+    margin-left: 140px;
+    padding: 11px;
+}
 .Formularioo{
     font-family: 'Arial', sans-serif;
     font-size: 16px;

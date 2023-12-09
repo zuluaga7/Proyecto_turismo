@@ -1,9 +1,11 @@
 import '../Menu/Menu.css'
 import logo_chiva from '../../assets/img/logo_chiva.png'
+import { Link } from 'react-router-dom'
 
 
 export function Menu() {
     return (
+      
         <>
         
 <nav className="navbar navbar-expand-lg navbar-dark fixed-top menu">
@@ -23,6 +25,7 @@ export function Menu() {
     >
       <span className="navbar-toggler-icon" />
     </button>
+    
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         
@@ -37,10 +40,10 @@ export function Menu() {
             A donde ir
           </a>
           <ul className="dropdown-menu">
+
             <li>
-              <a className="dropdown-item" href="#">
-                Guatapé
-              </a>
+              <a className="dropdown-item" href="#" > Guatape</a>
+
             </li>
             <li>
               <a className="dropdown-item" href="#">

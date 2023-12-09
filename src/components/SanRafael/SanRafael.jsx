@@ -9,7 +9,7 @@ const SanRafael = () => {
 
       <h3 className='tituloo'>Pueblo a descubrir</h3>
       <h1 className='titulooo'>San Rafael, embrujo de aguas cristalinas</h1>
-      <a href="https://turismoantioquia.travel/san-rafael/" target="_blank">
+      <a >
         {" "}
         <img id='imagenn'
           src={sanrafael_parque_viaje}
@@ -18,7 +18,7 @@ const SanRafael = () => {
       </a>
       <aside className='textoo'>
         <p>
-          <strong>San Rafael Ant; queda a solo 116 km/h de medellin</strong> por
+          <strong>San Rafael Ant;</strong> queda a solo 116 km/h de medellin por
           carretera pavimentada. ofrece una temperatura promedio de 28 grados y es
           conocida como la capital hidro-energética de colombia y pueblo luz, por ser
           el único que alberga en su territorio tres centrales hidroeléctricas:

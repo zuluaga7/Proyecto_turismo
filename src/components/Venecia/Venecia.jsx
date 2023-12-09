@@ -5,19 +5,20 @@ import { Link } from 'react-router-dom'
 
 const Venecia = () => {
   return (
-    <div>
+    <div className='cuerpoo'>
       <>
-  <h3>Pueblo a descubrir</h3>
-  <h1>Venecia y la pirámide más grande de Colombia</h1>
+  <h3 className='tituloo'>Pueblo a descubrir</h3>
+  <h1 className='titulooo'>Venecia y la pirámide más grande de Colombia</h1>
   <a href="https://turismoantioquia.travel/san-rafael/" target="_blank">
     {" "}
-    <img
+    <img id='imagenn'
       src={venecia_viajee}
       alt="parque"
       width={240}
       height={330}
     />{" "}
   </a>
+  <aside className='textoo'>
   <p>
   Este municipio está ubicado en la subregión suroeste del departamento,
    distante 58,5 kilómetros de Medellín y con una temperatura promedio de 23 grados 
@@ -44,40 +45,44 @@ const Venecia = () => {
   Como es lógico, se celebran las Fiestas del Cerro Tusa entre junio y julio, también las 
   Fiestas de la Canoa en uno de sus corregimientos, al igual que la Semana Santa.
   </p>
-  <div>
-    <h1>Qué hacer en Venecia - Antioquia</h1>
-    <ul>
+  </aside>
+ <div>
+    <h1 className='titulooo'>Qué hacer en Venecia - Antioquia</h1>
+    <ul id='p-a'>
       <li>
-        <p>Cerro Tusa</p>
+        <p id='p-b'>Cerro Tusa</p>
       </li>
       <li>
-        <p>Cuevas de Santa Catalina</p>
+        <p id='p-b'>Cuevas de Santa Catalina</p>
       </li>
       <li>
-        <p>Cerro Bravo</p>
+        <p id='p-b'>Cerro Bravo</p>
       </li>
       <li>
-        <p>La Diosa del Espejo</p>
+        <p id='p-b'>La Diosa del Espejo</p>
       </li>
     </ul>
-    <h1>Lugares para visitar</h1>
-    <ul>
+    <h1 className='titulooo'>Lugares para visitar</h1>
+    <ul id='p-a'>
       <li>
-        <p>La piedra del sacrificio</p>
+        <p id='p-b'>La piedra del sacrificio</p>
       </li>
       <li>
-        <p>Mirador turístico Miraflores</p>
+        <p id='p-b'>Mirador turístico Miraflores</p>
       </li>
       <li>
-        <p>Museo Cerro Tusa Zenufaná</p>
+        <p id='p-b'>Museo Cerro Tusa Zenufaná</p>
       </li>
-      <h1>
+      <section className='piee'>
+      <h1 id='p-c'>
         {" "}
         <small> Disfruta la experiencia!!!</small>
-        <Link to="/">Volver</Link>
+       
       </h1>
-      <Link to="/login" type='button'>Click para ingresar y activar membreseía</Link>
-    </ul>
+      <Link id='p-d' to="/">Volver</Link>
+      <Link id='p-d' to="/login" type='button'>Click para ingresar y activar membreseía</Link>
+      </section>
+  </ul>
   </div>
 </>
 
