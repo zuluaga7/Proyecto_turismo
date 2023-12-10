@@ -90,11 +90,6 @@ export function Menu() {
             </li>
           </ul>
         </li>
-        <li className="nav-item">
-          <a className="nav-link" href="#">
-            Rutas
-          </a>
-        </li>
       </ul>
      
       {/* <form className="d-flex" role="search">

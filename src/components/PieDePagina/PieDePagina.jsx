@@ -23,9 +23,6 @@ export default function PieDePagina() {
       <h3>Quiénes somos?</h3>
       <ul>
         <li>
-          <a href="#">Contacto</a>
-        </li>
-        <li>
           <a href="#">Preguntas Frecuentes</a>
         </li>
         <li>
@@ -34,13 +31,13 @@ export default function PieDePagina() {
       </ul>
     </div>
     <div className="link">
-      <h3>Ayuda</h3>
+      <h3>Contacto</h3>
       <ul>
         <li>
-          <a href="#">Viajes</a>
+          <a href="#">Medellin-Antioquia</a>
         </li>
         <li>
-          <a href="#">Promociones</a>
+          <a href="#">+57 3152758601</a>
         </li>
         <li>
           <a href="#">Transporte</a>

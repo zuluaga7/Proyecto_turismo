@@ -49,6 +49,7 @@ export default function Registrate() {
 
     console.log('Cuentas registradas:', nuevasCuentas);
     console.log(cuentas);
+    alert('la cuenta se registro con éxito')
   };
 
   return (
@@ -64,20 +65,20 @@ export default function Registrate() {
           <section className="irr">
             <form action="#" id="form-registro">
               {/* Campos de entrada y sus respectivos estados y funciones onChange */}
-              <input
+              {/* <input
                 type="text"
                 placeholder="Numero De Cuenta"
                 id="cuenta-nueva"
                 name="numeroCntaRgstr"
                 value={nuevaCuenta.numeroCntaRgstr}
                 onChange={handleChange}
-              />
+              /> */}
               <input
                 type="text"
-                placeholder="Nombres de usuario"
+                placeholder="Nombre de usuario"
                 id="input-usuario-nuevo"
-                name="nombresRegistro"
-                value={nuevaCuenta.nombresRegistro}
+                name="nombreRegistro"
+                value={nuevaCuenta.nombreRegistro}
                 onChange={handleChange}
               />
               <input
@@ -96,8 +97,8 @@ export default function Registrate() {
                 value={nuevaCuenta.confirmacionContraseña}
                 onChange={handleChange}
               />
-              <span id="confirmacion-clave" />
-              <input
+            
+              {/* <input
                 type="text"
                 placeholder="Saldo Inicial"
                 id="saldo-inicial-nuevo"
@@ -105,7 +106,7 @@ export default function Registrate() {
                 value={nuevaCuenta.saldoInicial}
                 onChange={handleChange}
 
-              />
+              /> */}
               <section>
               <button id='p-e' type="button" className="boton-entrar" onClick={registrarCuenta}>
                 Registrar cuenta
