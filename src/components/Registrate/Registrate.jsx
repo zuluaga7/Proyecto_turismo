@@ -3,9 +3,12 @@ import './Registrate.css'
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-router-dom'
+import Swal from 'sweetalert2';
+import { useNavigate } from 'react-router-dom';
 
 export default function Registrate() {
-  const [cuentas, setCuentas] = useState([]);
+  let redireccion = useNavigate()
+  /*const [cuentas, setCuentas] = useState([]);
   const [nuevaCuenta, setNuevaCuenta] = useState({
     numeroCntaRgstr: '',
     nombresRegistro: '',
@@ -50,7 +53,54 @@ export default function Registrate() {
     console.log('Cuentas registradas:', nuevasCuentas);
     console.log(cuentas);
     alert('la cuenta se registro con éxito')
+  };*/
+  const [usuarios, setUsuario] = useState({
+    nombreRegistro: '',
+    contrasena: '',
+    confirmacionContrasena: ''
+  });
+
+  const handleChange = (event) => {
+    const {name, value} = event.target;
+    setUsuario({
+      ...usuarios,
+      [name]: value
+    });
   };
+
+  const registrarUsuario = (event) => {
+    event.preventDefault();
+    var mensaje = '';
+    var estadoFormulario = false;
+    if (!usuarios.nombreRegistro || !usuarios.contrasena) {
+      mensaje = 'Faltan datos';
+    } else {
+      if (usuarios.contrasena != usuarios.confirmacionContrasena) {
+        mensaje = 'Las contraseñas no coinciden';
+      } else {
+        estadoFormulario = true;
+      }
+    }
+    //En vez del alert llaman la función de mostrar notificación
+    if (estadoFormulario) {
+      guardarUsuario();
+    } else {
+      notificacion(mensaje);
+      
+    }
+    
+  }
+
+  const notificacion = (mensaje) => {
+    Swal.fire(mensaje)
+}
+  
+  //Esta función hace el llamado de tipo post a la base de datos para guardar el usuario (No se requiere validar datos)
+  const guardarUsuario = () => {
+    alert("Hola, enviar datos");
+    redireccion('/')
+  }
+  
 
   return (
     <div>
@@ -78,23 +128,23 @@ export default function Registrate() {
                 placeholder="Nombre de usuario"
                 id="input-usuario-nuevo"
                 name="nombreRegistro"
-                value={nuevaCuenta.nombreRegistro}
+                value={usuarios.nombreRegistro}
                 onChange={handleChange}
               />
               <input
                 type="password"
                 id="password-nuevo"
                 placeholder="Contraseña"
-                name="contraseña"
-                value={nuevaCuenta.contraseña}
+                name="contrasena"
+                value={usuarios.contrasena}
                 onChange={handleChange}
               />
               <input
                 type="password"
-                name="confirmacionContraseña"
+                name="confirmacionContrasena"
                 id="confirmacion-password-nuevo"
                 placeholder="Confirmar Contraseña"
-                value={nuevaCuenta.confirmacionContraseña}
+                value={usuarios.confirmacionContrasena}
                 onChange={handleChange}
               />
             
@@ -108,7 +158,7 @@ export default function Registrate() {
 
               /> */}
               <section>
-              <button id='p-e' type="button" className="boton-entrar" onClick={registrarCuenta}>
+              <button id='p-e' type="submit" className="boton-entrar" onClick={registrarUsuario}>
                 Registrar cuenta
               </button>
               <Link id='p-f' to="/login">volver</Link>

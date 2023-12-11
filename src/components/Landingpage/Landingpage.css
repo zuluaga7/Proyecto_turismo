@@ -12,9 +12,11 @@
     position: relative;
     transition: 0.5s;
     font-family: serif;
+    
 }
 div video{
   width: 100%;
+  
 }
 @media (max-width: 768px) {
   .landingpage {

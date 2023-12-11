@@ -1,0 +1,43 @@
+.Foormulario {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-left: 421px;
+    background-color: #f0e8e8;
+}
+
+.reelleno {
+    margin: 20px 0;
+
+}
+
+.suib {
+    color: #888;
+}
+
+.iirr {
+    margin-top: 20px;
+    padding: 1px;
+}
+
+#p-i {
+    color: rgb(24, 83, 83);
+    text-decoration: none;
+    background-color: rgb(200, 208, 208);
+    border-radius: 50%;
+    padding: 1%;
+    margin-top: 27px;
+}
+#p-j{
+    background-color: rgb(163, 158, 158);
+    text-decoration: none;
+    color:  rgb(24, 83, 83);
+    margin-left: 30px;
+    padding: 3%;
+    border-radius: 50%;
+    
+}
