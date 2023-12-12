@@ -52,11 +52,11 @@ export default function PieDePagina() {
     </div>
   </div>
   <nav className='img'>
-  <a id='intento' href="https://www.instagram.com/kzuluaga777/" target="_blank"  class="bi bi-facebook"></a>
-  <a id='intento' href="https://www.instagram.com/kzuluaga777/" target="_blank" class="bi bi-messenger"></a>
-  <a id='intento' href="https://www.instagram.com/kzuluaga777/" target="_blank" class="bi bi-youtube"></a>
-  <a id='intento' href="https://www.instagram.com/kzuluaga777/" target="_blank" class="bi bi-instagram"></a>
-  <a id='intento' href="https://www.instagram.com/kzuluaga777/" target="_blank" class="bi bi-twitter-x"></a>
+  <a id='intento' href="https://www.instagram.com/sanrafatrips/" target="_blank"  class="bi bi-facebook"></a>
+  <a id='intento' href="https://www.instagram.com/sanrafatrips/" target="_blank" class="bi bi-messenger"></a>
+  <a id='intento' href="https://www.instagram.com/sanrafatrips/" target="_blank" class="bi bi-youtube"></a>
+  <a id='intento' href="https://www.instagram.com/sanrafatrips/" target="_blank" class="bi bi-instagram"></a>
+  <a id='intento' href="https://www.instagram.com/sanrafatrips/" target="_blank" class="bi bi-twitter-x"></a>
     </nav>    
   </footer>
 <section className='pie'>

@@ -1,4 +1,4 @@
-.Foormulario {
+/* .Foormulario {
     max-width: 400px;
     width: 100%;
     padding: 20px;
@@ -42,4 +42,59 @@
     padding: 3%;
     border-radius: 50%;
     margin-top: 20px;
+} */
+/* Estilos generales */
+.Foormulario {
+    max-width: 400px;
+    width: 90%; /* Cambiado a un porcentaje para hacerlo más adaptable */
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 37px auto; /* Centrar el formulario en lugar de usar margen izquierdo */
+    background-color: #f0e8e8;
+}
+
+.reelleno {
+    margin: 20px 0;
+}
+
+.suib {
+    color: #888;
+}
+
+.iirr {
+    margin-top: 20px;
+    padding: 1px;
+}
+
+#p-i {
+    color: rgb(24, 83, 83);
+    text-decoration: none;
+    background-color: rgb(200, 208, 208);
+    border-radius: 50%;
+    margin-top: 27px;
+}
+
+#j-p {
+    margin-top: 27px;
+}
+
+#p-j {
+    background-color: rgb(163, 158, 158);
+    text-decoration: none;
+    color: rgb(13, 114, 114);
+    padding: 3%;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .Foormulario {
+        width: 90%; /* Ajustar según tus necesidades para pantallas más pequeñas */
+        margin-left: auto; /* Centrar el formulario también en pantallas más pequeñas */
+        margin-right: auto;
+    }
 }

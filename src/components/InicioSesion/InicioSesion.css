@@ -1,4 +1,4 @@
-.rellleno{
+/* .rellleno{
     margin-left: 341px;
     margin-right: 341px;
     font-size: 41px;
@@ -53,4 +53,78 @@ border-color: rgb(189, 189, 103);
     padding: 1%;
     background-color: #bbacac;
 
+} */
+/* Estilos generales */
+.rellleno {
+    margin-left: 5%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+    margin-right: 5%; /* Ajusta el valor de margin-right según tus necesidades para pantallas más pequeñas */
+    font-size: 3vw; /* Utilizando unidades vw para un tamaño de fuente relativo al ancho de la ventana */
+    color: rgb(236, 238, 238);
+    text-align: center; /* Alineado al centro */
+}
+
+#titolo {
+    color: rgb(24, 83, 83);
+    margin-left: 5%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+    margin-right: 5%; /* Ajusta el valor de margin-right según tus necesidades para pantallas más pequeñas */
+    padding: 11px;
+}
+
+.Formularioo {
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem; /* Tamaño de fuente relativo */
+    background-color: #bbacac;
+    padding: 5%; /* Ajusta el valor de padding según tus necesidades */
+    color: rgb(130, 110, 110);
+    border-style: double;
+    text-align: center; /* Alineado al centro */
+}
+
+.irrr {
+    color: rgb(14, 108, 108);
+    margin-left: 5%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+}
+
+#goo {
+    margin-left: 5%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+    padding: 1%;
+    border-radius: 50%;
+    background-color: #a29999;
+    border-color: rgb(189, 189, 103);
+}
+
+.aaa {
+    margin-bottom: 20px;
+}
+
+#a-b,
+#b-a {
+    color: rgb(14, 108, 108);
+    text-decoration: none;
+    font-size: 1rem; /* Tamaño de fuente relativo */
+    margin-top: 10px; /* Ajusta el valor de margin-top según tus necesidades */
+    margin-left: 5%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+    border-radius: 50%;
+    padding: 1%;
+    background-color: #bbacac;
+    display: block; /* Convertir en bloque para ocupar toda la anchura disponible */
+}
+
+#b-a {
+    margin-left: 0; /* Ajusta el margen izquierdo para evitar solapamientos */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .Formularioo,
+    #titolo,
+    .rellleno,
+    .irrr,
+    #goo,
+    .aaa,
+    #a-b,
+    #b-a {
+        margin-left: 2%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+        margin-right: 2%; /* Ajusta el valor de margin-right según tus necesidades para pantallas más pequeñas */
+    }
 }

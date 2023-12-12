@@ -1,18 +1,17 @@
 .Formulario {
     max-width: 400px;
-    width: 100%;
+    width: 90%; /* Hacer el formulario más adaptable */
+    margin: 0 auto; /* Centrar el formulario en lugar de usar margen izquierdo */
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 8px;
-    margin-left: 421px;
     background-color: #f0e8e8;
 }
 
 .relleno {
     margin: 20px 0;
-
 }
 
 .sub {
@@ -32,78 +31,24 @@
     padding: 1%;
     margin-top: 27px;
 }
-#p-f{
+
+#p-f {
     background-color: rgb(163, 158, 158);
     text-decoration: none;
-    color:  rgb(24, 83, 83);
-    margin-left: 30px;
+    color: rgb(24, 83, 83);
+    margin-top: 20px; /* Ajusta el valor de margin-top según tus necesidades */
+    margin-left: 10px; /* Ajusta el valor de margin-left según tus necesidades */
     padding: 3%;
     border-radius: 50%;
-    
 }
 
-/* Estilos adicionales según tu estructura */
-
-
-/* .Formulario{
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
-    background-color:#dbd0d0;
-   padding: 27px;
-    align-items: center;
-    color: black;
-}
-.relleno{
-    margin-left: 341px;
-    font-size: 41px;
-    color: rgb(24, 83, 83);
-    align-items: center;
-    padding: 2%;
-}
-#form-registro{
-    padding: 20px;
-    columns: 1;
-}
-.sub{
-    justify-content: center;
-    align-items: center;
-}
-.irr{
-    font-size: 21px;
-    color: rgb(14, 108, 108);
-    align-items: center;
-}
-.boton-entrar{
-    margin-top: 27px;
-    margin-right: 170px;
-    padding: 1%;
-    border-radius: 50%;
-    border-color: antiquewhite;
-}
-#zzz{
-   text-decoration: none;
-   color: black;
-   padding: 1%;
-   border-radius: 50%;
-   border-color: antiquewhite;
-   background-color: rgb(229, 229, 235);
-}
-.piee{
-    background-color: rgb(195, 193, 191);
-    margin-top: 20px;
-}
+/* Media query para pantallas más pequeñas */
 @media (max-width: 768px) {
     .Formulario {
-        padding: 5%; 
+        width: 90%; /* Ajusta el valor de width según tus necesidades para pantallas más pequeñas */
     }
 
-    .relleno {
-        margin-left: 5%;
-        font-size: 36px;
-        padding: 5%;
+    #p-f {
+        margin-left: 5px; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
     }
-
-    .irr {
-        margin-left: 2%;
-    }
-} */
+}

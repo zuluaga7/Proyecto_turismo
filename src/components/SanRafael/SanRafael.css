@@ -1,4 +1,71 @@
 .cuerpoo {
+    background-color: rgb(223, 230, 223);
+}
+
+.tituloo, .titulooo {
+    font-size: 41px;
+    color: rgb(24, 83, 83);
+    align-items: center;
+    padding: 2%;
+    margin-left: 5%; /* Ajusta el valor según tus necesidades */
+    margin-right: 5%;
+}
+
+.textoo {
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    color: rgb(66, 56, 56);
+    column-gap: 2%; /* Ajusta el valor según tus necesidades */
+    column-count: 1; /* Cambiado a una sola columna para pantallas más pequeñas */
+    padding: 2%;
+}
+
+#imagenn {
+    width: 100%;
+    height: auto; /* Hace que la imagen sea responsive manteniendo su relación de aspecto */
+}
+
+#p-a {
+    margin-left: 5%; /* Ajusta el valor según tus necesidades */
+    margin-right: 5%;
+}
+
+#p-b {
+    color: rgb(24, 83, 83);
+}
+
+#p-c {
+    margin-left: 17%; /* Ajusta el valor según tus necesidades */
+    margin-right: 5%;
+    margin-bottom: 5%; /* Ajusta el valor según tus necesidades */
+    padding: 2%;
+}
+
+#p-d {
+    margin-left: 23%; /* Ajusta el valor según tus necesidades */
+    color: rgb(24, 83, 83);
+    text-decoration: none;
+    background-color: rgb(200, 208, 208);
+    border-radius: 17%;
+    padding: 1%;
+    margin-bottom: 7px;
+    margin-top: 5%; /* Ajusta el valor según tus necesidades */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .tituloo, .titulooo, .textoo, #p-a, #p-b, #p-c, #p-d {
+        margin-left: 2%; /* Ajusta el valor según tus necesidades para pantallas más pequeñas */
+        margin-right: 2%;
+    }
+    
+    .textoo {
+        column-count: 1; /* Cambiado a una sola columna para pantallas más pequeñas */
+    }
+}
+
+/* .cuerpoo {
     background-color: rgb(223, 230, 223)
 }
 
@@ -56,4 +123,4 @@
     padding: 1%;
     margin-bottom: 7px;
     margin-top: 27px;
-}
+} */

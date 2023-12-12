@@ -9,7 +9,6 @@ import InicioSesion from '../InicioSesion/InicioSesion';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-
 import '../Destinos/Destinos.css';
 
 // import required modules

@@ -1,4 +1,3 @@
-
 import { Link } from 'react-router-dom';
 import './Aventuras.css';
 // export default Aventuras

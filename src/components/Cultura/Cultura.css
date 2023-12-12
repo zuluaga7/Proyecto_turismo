@@ -1,4 +1,4 @@
-.ay{
+/* .ay{
     background-color: rgb(200, 180, 180);
     margin-top: 37px;
     margin-bottom: 2px;
@@ -26,4 +26,48 @@
     color: rgb(24, 83, 83);
     align-items: center;
     margin-left: 77px;
+} */
+/* Estilos generales */
+.ay {
+    background-color: rgb(200, 180, 180);
+    margin-top: 37px;
+    margin-bottom: 2px;
+    padding: 10%; /* Ajusta el valor de padding según tus necesidades */
+    overflow-y: scroll;
+    max-height: 450px;
+}
+
+#p-y {
+    margin-left: 10%; /* Ajusta el valor de margin-left según tus necesidades */
+    color: rgb(24, 83, 83);
+    text-decoration: none;
+    background-color: rgb(200, 208, 208);
+    border-radius: 17%;
+    padding: 1%;
+    margin-bottom: 10px; /* Reducido el valor del margin-bottom */
+}
+
+#a-d {
+    margin-left: 10%; /* Ajusta el valor de margin-left según tus necesidades */
+    margin-top: 20px; /* Ajusta el valor de margin-top según tus necesidades */
+}
+
+#b-c {
+    font-size: 24px; /* Ajusta el valor de font-size según tus necesidades */
+    color: rgb(24, 83, 83);
+    text-align: center; /* Alineado al centro */
+    margin: 20px 0; /* Ajusta el valor del margen según tus necesidades */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .ay {
+        padding: 5%; /* Ajusta el valor de padding según tus necesidades para pantallas más pequeñas */
+    }
+
+    #p-y,
+    #a-d,
+    #b-c {
+        margin-left: 5%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+    }
 }

@@ -1,4 +1,4 @@
-
+/* 
 #p-i{
     margin-left: 230px;
     color: rgb(24, 83, 83);
@@ -8,4 +8,21 @@
     padding: 1%;
     margin-bottom: 7px;
     margin-top: 127px;
+} */
+#p-i {
+    margin-left: 10%; /* Ajusta el valor de margin-left según tus necesidades */
+    color: rgb(24, 83, 83);
+    text-decoration: none;
+    background-color: rgb(200, 208, 208);
+    border-radius: 17%;
+    padding: 1%;
+    margin-bottom: 7px;
+    margin-top: 10px; /* Ajusta el valor de margin-top según tus necesidades */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    #p-i {
+        margin-left: 5%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+    }
 }

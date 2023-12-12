@@ -1,5 +1,5 @@
 
-#a-d{
+/* #a-d{
     margin-left: 250px;
     margin-top: 57px;
 }
@@ -8,4 +8,30 @@
     background-color: rgb(180, 186, 186);
     padding: 1%;
     text-decoration: none;
+} */
+/* Estilos generales */
+#a-d {
+    margin-left: 10%; /* Ajusta el valor de margin-left según tus necesidades */
+    margin-top: 20px; /* Ajusta el valor de margin-top según tus necesidades */
+}
+
+#d-a {
+    color: rgb(37, 93, 93);
+    background-color: rgb(180, 186, 186);
+    padding: 10px; /* Ajusta el valor de padding según tus necesidades */
+    text-decoration: none;
+    display: inline-block; /* Para que el enlace se comporte como un bloque en línea */
+    border-radius: 5px; /* Agregado el radio de borde para esquinas redondeadas */
+    margin-top: 10px; /* Ajusta el valor de margin-top según tus necesidades */
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    #a-d {
+        margin-left: 5%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+    }
+
+    #d-a {
+        margin-left: 5%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+    }
 }

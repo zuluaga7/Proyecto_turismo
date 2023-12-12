@@ -1,4 +1,4 @@
-.ayy{
+/* .ayy{
     background-color: rgb(200, 180, 180);
     margin-top: 37px;
     margin-bottom: 2px;
@@ -28,4 +28,59 @@
     border-radius: 17%;
     padding: 1%;
     
+} */
+/* Estilos generales */
+.ayy {
+    background-color: rgb(200, 180, 180);
+    margin-top: 37px;
+    margin-bottom: 2px;
+    padding: 10%; /* Ajusta el valor de padding según tus necesidades */
+    overflow-y: scroll;
+    max-height: 300px;
+}
+
+#p-g {
+    margin-left: 10%; /* Ajusta el valor de margin-left según tus necesidades */
+    color: rgb(24, 83, 83);
+    text-decoration: none;
+    background-color: rgb(200, 208, 208);
+    border-radius: 17%;
+    padding: 1%;
+    margin-bottom: 17px;
+    margin-top: 27px;
+}
+
+#b-h {
+    color: rgb(24, 83, 83);
+    margin-left: 5%; /* Ajusta el valor de margin-left según tus necesidades */
+}
+
+#p-z {
+    margin-left: 10%; /* Ajusta el valor de margin-left según tus necesidades */
+    color: rgb(24, 83, 83);
+    text-decoration: none;
+    background-color: rgb(200, 208, 208);
+    border-radius: 17%;
+    padding: 1%;
+}
+#buton{
+    background-color:  rgb(200, 208, 208);
+    margin-left: 500px;
+    border-radius: 50%;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .ayy {
+        padding: 5%; /* Ajusta el valor de padding según tus necesidades para pantallas más pequeñas */
+    }
+
+    #p-g,
+    #p-z {
+        margin-left: 5%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+    }
+
+    #b-h {
+        margin-left: 2%; /* Ajusta el valor de margin-left según tus necesidades para pantallas más pequeñas */
+    }
 }
