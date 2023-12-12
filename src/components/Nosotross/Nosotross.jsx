@@ -4,15 +4,24 @@ import { Link } from 'react-router-dom'
 
 function Nosotross() {
   return (
-    <div className='we'>
-      <h1>Hola Nosotros</h1>
-      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam eligendi ad enim vitae, suscipit dolores labore molestias consequuntur aliquid ab quae voluptate natus, quo commodi vel fugit asperiores consectetur nulla.
-      Eos quibusdam totam fugit mollitia temporibus perspiciatis illo eaque ipsam tempore maxime, ullam hic unde beatae cupiditate iure veritatis dignissimos atque, quo quas illum soluta laboriosam nam voluptatum. Dolores, fugit.
-      Odio quas, placeat nulla quisquam impedit rem ducimus? Blanditiis excepturi pariatur voluptates nobis alias. Exercitationem saepe a, corporis nisi possimus natus, repellat pariatur consectetur, accusamus architecto error quos minus nulla.
-      Obcaecati fuga praesentium aspernatur perferendis tenetur. Magnam nobis nesciunt ad illum ipsum esse, praesentium voluptate sit repudiandae nisi in itaque iure accusamus rem voluptatibus! Aut vel maxime voluptatum! Blanditiis, eveniet?
-      Ipsa numquam laudantium sed debitis expedita et similique minus ipsam facilis nobis eos, veritatis corrupti doloribus, consectetur perspiciatis accusantium amet voluptatum repellendus quas. Deleniti, recusandae inventore quasi veritatis accusantium nostrum.</h1>
-      <section>
-    <Link id='p-n' to="/">Volver</Link>
+    <div className='ayy'>
+      <h1 className='titulo'>Bienvenidos a la página oficial de turismo de Puebliando-Ando</h1>
+      <p>Puebliando-Ando es el programa de turismo del Departamento de Antioquia que
+         busca posicionar y fortalecer a los municipios del Departamento como territorios 
+         turísticos a nivel local, regional, nacional e internacional; a través del desarrollo
+          de mercados especializados, la instalación de capacidades territoriales y el marketing 
+          enfocados en los saberes, talentos y vivencias.</p>
+      <p>Antioquia cuenta con 9 subregiones y 125 municipios, los cuales
+         fueron categorizados y priorizados con base en criterios técnicos
+          para realizar la promoción e intervención turística por fases. 
+          En el 2020, se inició una primera fase con 20 municipios mágicos, 
+          en el 2022 se sumaron 15 más, ahora son 35, se espera que éstos aumenten
+           progresivamente a medida que se trabaja de la mano con las Alcaldías 
+           municipales y entes aliados.</p>
+           <h1 className='titulo'>¡Nuestra misión es que te enamores de Antioquia y te animes a recorrerla!</h1>
+
+      <section id='a-d'>
+    <Link id='p-i' to="/">Volver</Link>
     </section>
     </div>
     

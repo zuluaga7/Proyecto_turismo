@@ -4,7 +4,7 @@
     margin-bottom: 2px;
     padding: 19%;
     overflow-y: scroll; 
-    max-height: 300px;
+    max-height: 450px;
 }       
 #p-y{
     margin-left: 230px;
@@ -13,13 +13,17 @@
     background-color: rgb(200, 208, 208);
     border-radius: 17%;
     padding: 1%;
-    margin-bottom: 17px;
-    margin-top: 27px;
+    margin-bottom: 117px;
 }
+    
+#a-d{
+    margin-left: 250px;
+    margin-top: 57px;
+}
+
 #b-c{
     font-size: 37px;
     color: rgb(24, 83, 83);
     align-items: center;
-    padding: 2%;
     margin-left: 77px;
 }

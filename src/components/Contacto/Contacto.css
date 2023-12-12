@@ -8,6 +8,7 @@
     border-radius: 8px;
     margin-left: 421px;
     background-color: #f0e8e8;
+    margin-top: 37px;
 }
 
 .reelleno {
@@ -29,15 +30,16 @@
     text-decoration: none;
     background-color: rgb(200, 208, 208);
     border-radius: 50%;
-    padding: 1%;
+    margin-top: 27px;
+}
+#j-p{
     margin-top: 27px;
 }
 #p-j{
     background-color: rgb(163, 158, 158);
     text-decoration: none;
-    color:  rgb(24, 83, 83);
-    margin-left: 30px;
+    color:  rgb(13, 114, 114);
     padding: 3%;
     border-radius: 50%;
-    
+    margin-top: 20px;
 }

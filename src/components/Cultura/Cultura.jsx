@@ -3,7 +3,7 @@ import './Cultura.css'
 import { Link } from 'react-router-dom'
 
 function Cultura() {
-  return (
+  return (  
     <div className='ay'>
       <h1 id='b-c'>Cultura paisa</h1>
       <p>El departamento de Antioquia, la tierra de la cultura paisa, innovación e 
@@ -29,7 +29,7 @@ Por último, de oruga a mariposa es la simbología de la transformación de esti
            que es ejemplo de perseverancia y trabajo duro. Ambas propias del ADN antioqueño.</p>
         <p>Finalmente, la historia del departamento de Antioquia es de la región que se levanta pese a los obstáculos y aprende del pasado. También es la
            cultura que invita a su gente a sentirse orgullo del camino recorrido, pero también a continuar innovando en arte, cultura y tecnología.</p>
-<section>
+<section id='a-d'>
   
     <Link id='p-y' to="/">Volver</Link>
     </section>

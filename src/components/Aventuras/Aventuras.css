@@ -16,3 +16,16 @@
     margin-bottom: 17px;
     margin-top: 27px;
 }
+#b-h{
+    color: rgb(24, 83, 83);
+    margin-left: 110px;
+}
+#p-z{
+    margin-left: 230px;
+    color: rgb(24, 83, 83);
+    text-decoration: none;
+    background-color: rgb(200, 208, 208);
+    border-radius: 17%;
+    padding: 1%;
+    
+}
