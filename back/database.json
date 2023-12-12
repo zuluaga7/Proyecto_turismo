@@ -1,0 +1,10 @@
+{
+  "usuarios": [
+    {
+      "id": "f1ea4599-e224-4c86-b03b-baea28109ccb",
+      "nombreusuario": "eduardo",
+      "contrasena": "1234"
+    }
+  ],
+  "viajes": []
+}

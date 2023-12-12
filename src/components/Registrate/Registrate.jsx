@@ -5,55 +5,12 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom'
 import Swal from 'sweetalert2';
 import { useNavigate } from 'react-router-dom';
+import { v4 } from 'uuid';
+import axios from 'axios';
 
 export default function Registrate() {
   let redireccion = useNavigate()
-  /*const [cuentas, setCuentas] = useState([]);
-  const [nuevaCuenta, setNuevaCuenta] = useState({
-    numeroCntaRgstr: '',
-    nombresRegistro: '',
-    contraseña: '',
-    confirmacionContraseña: '',
-    saldoInicial: ''
-  });
-
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setNuevaCuenta((prevCuenta) => ({
-      ...prevCuenta,
-      [name]: value
-    }));
-  };
-
-  const registrarCuenta = () => {
-    // Verifica que las contraseñas coincidan
-    if (nuevaCuenta.contraseña !== nuevaCuenta.confirmacionContraseña) {
-      //console.error('Las contraseñas no coinciden');
-      alert('las contraseñas no coinciden');
-      return;
-      }
-
-
-
-    // Crea una copia del array de cuentas y agrega la nueva cuenta
-    const nuevasCuentas = [cuentas, nuevaCuenta];
-    setCuentas(nuevasCuentas);
-
-    // Puedes realizar otras acciones aquí, como enviar los datos al servidor
-
-    // Limpia el formulario después del registro
-    setNuevaCuenta({
-      numeroCntaRgstr: setNuevaCuenta,
-      nombresRegistro: setNuevaCuenta,
-      contraseña: setNuevaCuenta,
-      confirmacionContraseña: setNuevaCuenta,
-      saldoInicial: setNuevaCuenta
-    });
-
-    console.log('Cuentas registradas:', nuevasCuentas);
-    console.log(cuentas);
-    alert('la cuenta se registro con éxito')
-  };*/
+  
   const [usuarios, setUsuario] = useState({
     nombreRegistro: '',
     contrasena: '',
@@ -83,7 +40,12 @@ export default function Registrate() {
     }
     //En vez del alert llaman la función de mostrar notificación
     if (estadoFormulario) {
-      guardarUsuario();
+      const nuevoUsuario1 = {
+        id:v4(),
+        nombreusuario:usuarios.nombreRegistro,
+        contrasena:usuarios.contrasena
+      }
+      guardarUsuario(nuevoUsuario1);
     } else {
       notificacion(mensaje);
       
@@ -96,7 +58,8 @@ export default function Registrate() {
 }
   
   //Esta función hace el llamado de tipo post a la base de datos para guardar el usuario (No se requiere validar datos)
-  const guardarUsuario = () => {
+  const guardarUsuario = async (nuevoUsuario1) => {
+    const respuesta = await axios.post("http://localhost:3001/usuarios", nuevoUsuario1);
     alert("Hola, enviar datos");
     redireccion('/')
   }
