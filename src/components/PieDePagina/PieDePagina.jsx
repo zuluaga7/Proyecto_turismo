@@ -13,7 +13,7 @@ export default function PieDePagina() {
      <footer className="footer">
   <div className="footer-content container">
     <div className="link">
-      <h3>Qué hacer?</h3>
+      <h3 id='p-l'>Qué hacer?</h3>
       <ul>
         <li>
         <Link to="/aventuras" className="dropdown-item">Aventuras</Link>
@@ -27,26 +27,26 @@ export default function PieDePagina() {
       </ul>
     </div>
     <div className="link">
-      <h3>Quiénes somos?</h3>
+      <h3 id='p-l'>Quiénes somos?</h3>
       <ul>
        
         <li>
-          <Link to="/Nosotross"> La vida en Puebliando'Ando</Link>
+          <Link id='p-k' to="/Nosotross"> La vida en Puebliando'Ando</Link>
           
         </li>
       </ul>
     </div>
     <div className="link">
-      <h3>Contacto</h3>
+      <h3 id='p-l'>Contacto</h3>
       <ul>
         <li>
-          <a href="#">Medellin-Antioquia</a>
+          <p>Medellin-Antioquia</p>
         </li>
         <li>
-          <a href="#">+57 3152758601</a>
+          <p>+57 3152758601</p>
         </li>
         <li>
-          <a href="#">Transporte</a>
+          <p>Correo: viajes@gmail.com</p>
         </li>
       </ul>
     </div>

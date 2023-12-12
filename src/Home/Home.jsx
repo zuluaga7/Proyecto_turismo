@@ -25,7 +25,7 @@ export function Home() {
                         href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap"
                         rel="stylesheet"
                     /> 
-                    <h1>Disfruta la aventura</h1>
+                    <h1 id='c-a'>Disfruta la aventura</h1>
                 </p>
                 <section className="containerForm">
                     <form className='aa' action="">
