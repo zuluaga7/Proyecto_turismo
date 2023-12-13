@@ -25,7 +25,7 @@ export default function Registrate() {
     });
   };
 
-  const registrarUsuario = (event) => {
+  const registrarUsuario = async (event) => {
     event.preventDefault();
     var mensaje = '';
     var estadoFormulario = false;
