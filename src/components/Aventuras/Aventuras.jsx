@@ -57,9 +57,10 @@ const Aventuras = () => {
   const agregarAlCarrito = async (nuevoViaje) => {
     try {
       const respuesta = await axios.post("http://localhost:3001/viajes", nuevoViaje);
-       setCarrito(nuevoCarrito);
+      const nuevoCarrito = [...carrito, { nombre: nombreViaje }];
+      setCarrito(nuevoCarrito);
       Swal.fire({
-        title: nombreViaje,
+        title: "jum x",
         text: "¿Estás seguro de agregar el viaje?",
         icon: "warning",
         showCancelButton: true,
@@ -76,10 +77,27 @@ const Aventuras = () => {
         } 
       });
     } catch (error) {
-      // Manejar el error aquí
-      console.error('Error al agregar al carrito:', error);
-      notificacion('Error al agregar el viaje al carrito', 'error');
+      if (axios.isAxiosError(error)) {
+        // Manejar errores específicos de Axios
+        if (error.response) {
+          // El servidor respondió con un código de estado que no está en el rango 2xx
+          console.error('Error de respuesta del servidor:', error.response.data);
+        } else if (error.request) {
+          // La solicitud fue realizada pero no se recibió respuesta
+          console.error('No se recibió respuesta del servidor:', error.request);
+        } else {
+          // Error durante la configuración de la solicitud
+          console.error('Error de configuración de la solicitud:', error.message);
+        }
+      } else {
+        // Otros tipos de errores
+       console.error('Error al gar al carrito:', error);
+      }
+    
+     notificacion('Error al agregar el viaje al carrito', 'error');
+     // notificacion('Viaje agregado con éxito', 'success');
     }
+    
   };
   
 
@@ -133,7 +151,7 @@ const Aventuras = () => {
         como también para adultos. Ahora bien, una de esas actividades familiares que vale la pena realizar al lado de tus seres queridos es el el Tour a la
         hacienda Nápoles saliendo desde Medellín; el cual tiene una duración de 6 horas-</p>
       <p>Este Tour cubre los gastos del transporte, pasaporte SAFARI (uno de los más completos), el desayuno, guía y asesoramiento por profesionales, seguro de viajes, entre otros.</p>
-      <form onSubmit={registrarViaje}>
+      <button id='buton' onClick={() => agregarAlCarrito('Tour a la hacienda Nápoles')}>Agregar al Carrito</button><form onSubmit={registrarViaje}>
         <label htmlFor="nombreDestino">Nombre del Destino:</label>
         <input
           type="text"
