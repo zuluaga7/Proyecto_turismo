@@ -60,8 +60,14 @@ export default function Registrate() {
   //Esta función hace el llamado de tipo post a la base de datos para guardar el usuario (No se requiere validar datos)
   const guardarUsuario = async (nuevoUsuario1) => {
     const respuesta = await axios.post("http://localhost:3001/usuarios", nuevoUsuario1);
-    alert("Hola, enviar datos");
-    redireccion('/')
+    Swal.fire({
+      position: "top-center",
+      icon: "success",
+      title: "Cuenta registrada con éxito",
+      showConfirmButton: false,
+      timer: 2500
+     });
+    redireccion('/login')
   }
   
 
@@ -77,15 +83,6 @@ export default function Registrate() {
           </h4>
           <section className="irr">
             <form action="#" id="form-registro">
-              {/* Campos de entrada y sus respectivos estados y funciones onChange */}
-              {/* <input
-                type="text"
-                placeholder="Numero De Cuenta"
-                id="cuenta-nueva"
-                name="numeroCntaRgstr"
-                value={nuevaCuenta.numeroCntaRgstr}
-                onChange={handleChange}
-              /> */}
               <input
                 type="text"
                 placeholder="Nombre de usuario"
@@ -110,16 +107,6 @@ export default function Registrate() {
                 value={usuarios.confirmacionContrasena}
                 onChange={handleChange}
               />
-            
-              {/* <input
-                type="text"
-                placeholder="Saldo Inicial"
-                id="saldo-inicial-nuevo"
-                name="saldoInicial"
-                value={nuevaCuenta.saldoInicial}
-                onChange={handleChange}
-
-              /> */}
               <section>
               <button id='p-e' type="submit" className="boton-entrar" onClick={registrarUsuario}>
                 Registrar cuenta
@@ -134,17 +121,6 @@ export default function Registrate() {
     </div>
   );
 }
-
-
-
-// <h2>Hola! <span id="nombre-usuario-pantalla">jose armando benavidez</span></h2>
-//                 <button class="cerrar-sesion" id="cerrar-sesion" onclick="alerta()">Cerrar Sesion</button>
-//var nombreEnPantalla = document.getElementById("nombre-usuario-pantalla")
-
-// inputUsuario.addEventListener("input", () => {
-//   nombreUsuario.textContent = inputUsuario.value
-//   nombreEnPantalla.textContent = inputUsuario.value
-// })
 
 
 

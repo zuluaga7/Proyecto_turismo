@@ -19,6 +19,11 @@ export function Home() {
                 <Menu></Menu>
                 <Landingpage></Landingpage>
             </header>
+            
+            <section>
+                <ContenidoPrincipal>
+                </ContenidoPrincipal>
+            </section>
             <section className='banner'>
             <p className='text-white'>
                      <link
@@ -27,109 +32,7 @@ export function Home() {
                     /> 
                     <h1 id='c-a'>Disfruta la aventura</h1>
                 </p>
-                <section className="containerForm">
-                    <form className='aa' action="">
-
-                        <div className="dropdown">
-                            <button
-                                className="btn btn-secondary dropdown-toggle"
-                                type="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                                Destinos
-                            </button>
-                            <ul className="dropdown-menu">
-                                <li>
-                                    <a className="dropdown-item" href="#">
-                                        Guatape
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="dropdown-item" href="#">
-                                        Jericó
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="dropdown-item" href="#">
-                                        San Rafael
-                                    </a>
-                                </li>
-                            </ul>
-
-                            <button
-                                className="btn btn-secondary dropdown-toggle"
-                                type="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                                fecha inicio
-                            </button>
-                            <ul className="dropdown-menu">
-                                <li>
-                                <input  type="date" />
-                                </li>
-                                {/* <li>
-                                    <a className="dropdown-item" href="#">
-                                        Action
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="dropdown-item" href="#">
-                                        Another action
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="dropdown-item" href="#">
-                                        Something else here
-                                    </a>
-                                </li> */}
-                            </ul>
-                            <button
-                                className="btn btn-secondary dropdown-toggle"
-                                type="button"
-                                data-bs-toggle="dropdown"
-                                aria-expanded="false"
-                            >
-                                fecha final
-                            </button>
-                            <ul className="dropdown-menu">
-                                <li>
-                                <input type="date" />
-                                </li>
-                                {/* <li>
-                                    <a className="dropdown-item" href="#">
-                                        Action
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="dropdown-item" href="#">
-                                        Another action
-                                    </a>
-                                </li>
-                                <li>
-                                    <a className="dropdown-item" href="#">
-                                        Something else here
-                                    </a>
-                                </li> */}
-                            </ul>
-
-                            <button className='eh' type="button">
-                                <i className="bi bi-search" />
-                            </button>
-
-                        </div>
-                        
-
-                    </form>
-                </section>
-            </section>
-
-            <section>
-                <ContenidoPrincipal>
-                </ContenidoPrincipal>
-            </section>
-            
+               </section>
              <section>
                 <Carrusel></Carrusel>
             </section>

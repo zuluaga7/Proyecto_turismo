@@ -1,59 +1,20 @@
-/* .Foormulario {
-    max-width: 400px;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin-left: 421px;
-    background-color: #f0e8e8;
-    margin-top: 37px;
+#b-n {
+    background-image: url("../../assets/img/paaramo_c.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
 }
 
-.reelleno {
-    margin: 20px 0;
-
-}
-
-.suib {
-    color: #888;
-}
-
-.iirr {
-    margin-top: 20px;
-    padding: 1px;
-}
-
-#p-i {
-    color: rgb(24, 83, 83);
-    text-decoration: none;
-    background-color: rgb(200, 208, 208);
-    border-radius: 50%;
-    margin-top: 27px;
-}
-#j-p{
-    margin-top: 27px;
-}
-#p-j{
-    background-color: rgb(163, 158, 158);
-    text-decoration: none;
-    color:  rgb(13, 114, 114);
-    padding: 3%;
-    border-radius: 50%;
-    margin-top: 20px;
-} */
-/* Estilos generales */
 .Foormulario {
     max-width: 400px;
-    width: 90%; /* Cambiado a un porcentaje para hacerlo más adaptable */
+    width: 90%;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
     border: 1px solid #ccc;
     border-radius: 8px;
-    margin: 37px auto; /* Centrar el formulario en lugar de usar margen izquierdo */
-    background-color: #f0e8e8;
+    margin: 20px auto;
+    background-color: transparent;
 }
 
 .reelleno {
@@ -61,7 +22,7 @@
 }
 
 .suib {
-    color: #888;
+    color: #0f0e0e;
 }
 
 .iirr {
@@ -74,27 +35,29 @@
     text-decoration: none;
     background-color: rgb(200, 208, 208);
     border-radius: 50%;
-    margin-top: 27px;
+    margin-top: 20px;
 }
 
 #j-p {
-    margin-top: 27px;
+    margin-top: 20px;
 }
 
 #p-j {
-    background-color: rgb(163, 158, 158);
+    background-color: rgb(247, 235, 235);
     text-decoration: none;
-    color: rgb(13, 114, 114);
+    color: rgb(22, 24, 24);
     padding: 3%;
     border-radius: 50%;
     margin-top: 20px;
 }
 
 /* Media query para pantallas más pequeñas */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    #b-n {
+        height: 250px; /* Ajusta la altura para pantallas más pequeñas */
+    }
+
     .Foormulario {
-        width: 90%; /* Ajustar según tus necesidades para pantallas más pequeñas */
-        margin-left: auto; /* Centrar el formulario también en pantallas más pequeñas */
-        margin-right: auto;
+        max-width: 300px; /* Ajusta el ancho para pantallas más pequeñas */
     }
 }

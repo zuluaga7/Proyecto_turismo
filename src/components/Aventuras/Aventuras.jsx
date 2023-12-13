@@ -18,17 +18,17 @@ const Aventuras = () => {
    setCarrito(nuevoCarrito);
    Swal.fire({
     title: nombreViaje,
-    text: "You won't be able to revert this!",
+    text: "¿Estás seguro de agregar el viaje?",
     icon: "warning",
     showCancelButton: true,
     confirmButtonColor: "#3085d6",
     cancelButtonColor: "#d33",
-    confirmButtonText: "Yes, delete it!"
+    confirmButtonText: "Sí, estoy seguro!"
   }).then((result) => {
     if (result.isConfirmed) {
       Swal.fire({
-        title: "Deleted!",
-        text: "Your file has been deleted.",
+        title: "Confirmado!",
+        text: "Viaje agregado con éxito.",
         icon: "success"
       });
     }
@@ -36,8 +36,8 @@ const Aventuras = () => {
   
  };
   return (
-    <div>
-         <h1 id='b-c'>¿Qué hacer en Antioquia? 15 Planes Turísticos Imperdibles</h1>
+    <div className='ay'>
+         <h1 id='b-c'>¿Qué hacer en Antioquia? 5 Planes Turísticos Imperdibles</h1>
       <p>Ir a Antioquia, es una de las mejores decisiones que puedes tomar si
          quieres visitar lo mejor de Colombia. Esto debido a que este departamento 
          cuenta con una extensa variedad de destinos turísticos que pueden adaptarse a

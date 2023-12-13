@@ -1,10 +1,19 @@
 {
   "usuarios": [
     {
-      "id": "f1ea4599-e224-4c86-b03b-baea28109ccb",
-      "nombreusuario": "eduardo",
-      "contrasena": "1234"
+      "id": "202b2d2a-2bf8-4d76-b1d1-d979daeedd9f",
+      "nombreusuario": "a",
+      "contrasena": "1"
+    },
+    {
+      "id": "a1469087-04ba-4506-889c-fac145081ac3",
+      "nombreusuario": "trasnochando",
+      "contrasena": "123"
     }
   ],
-  "viajes": []
+  "viajes": [
+    {
+      
+    }
+  ]
 }
